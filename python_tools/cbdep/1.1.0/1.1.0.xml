@@ -9,6 +9,6 @@
   <project name="build" path="cbbuild" revision="89467fdea78ec6c84fa423756a1210056ac5c199">
     <annotation name="VERSION" value="1.1.0"/>
   </project>
-  <project name="cbdep" remote="couchbasebuild" revision="c6f04cd76db1372c71faec9254bbd29e83801375" upstream="master"/>
+  <project name="cbdep" remote="couchbasebuild" revision="16ea80977d2c623f577a6cea111036e9a0c80aa7" upstream="master"/>
   <project name="pyinstaller" remote="couchbasedeps" revision="54083110106d2c20e45364d1f98457880dcbd31e" upstream="couchbase-develop"/>
 </manifest>
