@@ -46,7 +46,7 @@
   <project name="cuckoofilter" path="godeps/src/github.com/seiflotfy/cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="dd9a9398299f0e63097baad2391c74feb6818e59" upstream="master"/>
   <project name="errors" path="godeps/src/github.com/pkg/errors" remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833"/>
-  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="a57a650729c416742231016cd300fa01e89282cd" upstream="master" groups="notdefault,enterprise"/>
+  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="2503375a3f9e3298540a7ce514c637bc86e9f39f" upstream="master" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" revision="92ab793c8ffea72b99bc9b11a7a903d2c2577316" upstream="master" groups="notdefault,enterprise"/>
   <project name="flatbuffers" path="godeps/src/github.com/google/flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303"/>
   <project name="forestdb" revision="5528c32901e631d1fce1494013142899f3356558" upstream="cb-master" groups="backup"/>
