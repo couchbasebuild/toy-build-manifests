@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
+  <remote name="couchbasebuild" fetch="git://github.com/couchbasebuild/"/>
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="89467fdea78ec6c84fa423756a1210056ac5c199">
+    <annotation name="VERSION" value="1.1.1"/>
+  </project>
+  <project name="cbdep" remote="couchbasebuild" revision="aaed41d3d57939ede0ce64e28120ab1fb63ff03d" upstream="master"/>
+  <project name="pyinstaller" remote="couchbasedeps" revision="54083110106d2c20e45364d1f98457880dcbd31e" upstream="couchbase-develop"/>
+</manifest>
