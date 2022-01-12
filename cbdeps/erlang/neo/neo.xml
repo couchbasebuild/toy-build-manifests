@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
-  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
   
   <default remote="couchbase" revision="master"/>
   
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="neo"/>
   </project>
-  <project name="build-tools" revision="9845e64256c0c5270c366a170968b960ec0e67aa" upstream="master"/>
+  <project name="build-tools" revision="0e068c47a688b2182e18f1f1553aa39bf49d3c91" upstream="master"/>
   <project name="erlang" remote="couchbasedeps" revision="38e24c5703040aff21bffd0abdb76fec04f5ceef" upstream="couchbase-neo"/>
 </manifest>
