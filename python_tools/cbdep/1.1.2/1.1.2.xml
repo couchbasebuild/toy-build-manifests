@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
-  <remote name="couchbasebuild" fetch="git://github.com/couchbasebuild/"/>
-  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasebuild" fetch="https://github.com/couchbasebuild/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
   
   <default remote="couchbase" revision="master"/>
   
   <project name="build" path="cbbuild" revision="89467fdea78ec6c84fa423756a1210056ac5c199">
     <annotation name="VERSION" value="1.1.2"/>
   </project>
-  <project name="cbdep" remote="couchbasebuild" revision="6a38179e84641c7291617a61a7f8b24524c763c5" upstream="master"/>
+  <project name="cbdep" remote="couchbasebuild" revision="24c097b9e6f57b667464751b434a5b86614c0be7" upstream="master"/>
 </manifest>
