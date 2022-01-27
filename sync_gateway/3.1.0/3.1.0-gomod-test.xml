@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="cbbruno" fetch="https://github.com/cbbruno/"/>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"/>
+  <remote name="couchbaselabs_private" fetch="ssh://git@github.com/couchbaselabs/"/>
+  <remote name="mhocouchbase" fetch="https://github.com/mhocouchbase/"/>
+  <remote name="tleyden" fetch="https://github.com/tleyden/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" remote="mhocouchbase" revision="a0fdf8f95693a0da92c6fb00df2c45aa5fe47971" upstream="SGW" dest-branch="SGW">
+    <annotation name="VERSION" value="3.1.0-gomod-test"/>
+    <annotation name="BLD_NUM" value="@BLD_NUM@"/>
+    <annotation name="RELEASE" value="@RELEASE@"/>
+  </project>
+  <project name="product-texts" revision="ea4fa7b0bfc100a0aec8f4d094c2cb378cddd9e0" upstream="master" dest-branch="master"/>
+  <project name="sync_gateway_mod" path="godeps/src/github.com/couchbase/sync_gateway" remote="cbbruno" revision="abe0868b628c683056ba8eb2f04c3e5a6e8a72ea" upstream="develop" dest-branch="develop"/>
+</manifest>
