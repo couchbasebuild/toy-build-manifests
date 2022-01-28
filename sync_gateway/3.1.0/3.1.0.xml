@@ -10,7 +10,7 @@
   
   <default remote="couchbase" revision="master"/>
   
-  <project name="build" path="cbbuild" remote="mhocouchbase" revision="a0fdf8f95693a0da92c6fb00df2c45aa5fe47971" upstream="SGW" dest-branch="SGW">
+  <project name="build" path="cbbuild" remote="mhocouchbase" revision="6e1321544b6c2a500ba6f413ac638dcd26a2a32c" upstream="SGW" dest-branch="SGW">
     <annotation name="VERSION" value="3.1.0"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@"/>
     <annotation name="RELEASE" value="@RELEASE@"/>
