@@ -10,11 +10,11 @@
   
   <default remote="couchbase" revision="master"/>
   
-  <project name="build" path="cbbuild" remote="mhocouchbase" revision="6e1321544b6c2a500ba6f413ac638dcd26a2a32c" upstream="SGW" dest-branch="SGW">
+  <project name="build" path="cbbuild" remote="mhocouchbase" revision="3d3b4bcdd1e32071b7db36d5e188aeff6e7298e8" upstream="SGW" dest-branch="SGW">
     <annotation name="VERSION" value="3.1.0"/>
     <annotation name="BLD_NUM" value="@BLD_NUM@"/>
     <annotation name="RELEASE" value="@RELEASE@"/>
   </project>
   <project name="product-texts" revision="ea4fa7b0bfc100a0aec8f4d094c2cb378cddd9e0" upstream="master" dest-branch="master"/>
-  <project name="sync_gateway_mod" path="godeps/src/github.com/couchbase/sync_gateway" remote="cbbruno" revision="abe0868b628c683056ba8eb2f04c3e5a6e8a72ea" upstream="develop" dest-branch="develop"/>
+  <project name="sync_gateway_mod" path="godeps/src/github.com/couchbase/sync_gateway" remote="cbbruno" revision="404033afc49413cc6a58945e8ce4a726a1883e8f" upstream="develop" dest-branch="develop"/>
 </manifest>
