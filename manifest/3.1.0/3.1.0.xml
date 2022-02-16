@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"/>
+  <remote name="couchbaselabs_private" fetch="ssh://git@github.com/couchbaselabs/"/>
+  <remote name="mhocouchbase" fetch="https://github.com/mhocouchbase/"/>
+  <remote name="tleyden" fetch="https://github.com/tleyden/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" remote="mhocouchbase" revision="fca1486b4ccc8a55d232a4c6709f6f928683fc3b" upstream="SGW" dest-branch="SGW">
+    <annotation name="VERSION" value="3.1.0"/>
+    <annotation name="BLD_NUM" value="@BLD_NUM@"/>
+    <annotation name="RELEASE" value="@RELEASE@"/>
+  </project>
+  <project name="product-texts" revision="eadf993131aced4b8df717198b3b057bbc4fd81a" upstream="master" dest-branch="master"/>
+  <project name="sync_gateway" revision="ce5c0a182f84936991955036f084011c67b2138e" upstream="CBG-1851" dest-branch="CBG-1851"/>
+</manifest>
