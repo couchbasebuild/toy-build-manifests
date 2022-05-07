@@ -21,14 +21,14 @@
   <project name="build" path="cbbuild" revision="6681090e051cdc5b30243ac5e74137f728728f84" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,build">
     <annotation name="RELEASE" value="cheshire-cat"/>
     <annotation name="PRODUCT" value="couchbase-server"/>
-    <annotation name="BLD_NUM" value="7265"/>
+    <annotation name="BLD_NUM" value="7273"/>
     <annotation name="VERSION" value="7.0.4"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server"/>
     <annotation name="BSL_VERSION" value="7.0"/>
     <annotation name="BSL_CHANGE_DATE" value="July 1, 2025"/>
   </project>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="f4d74f157fabd6406009e14f21c18e5db2d97016" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="d976fdec4eebce32bb3ea2d401e3af871ab8b279" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="6b37663f33b08542ef9265c441a9ec33ce8bc632" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" revision="5c9f762d5e002e9de2da7aec5bbb1cce309a2b35" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise,analytics,bsl"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" revision="ac1d7154ec05cfe6e0d3d7e8d3475f912d2aba06" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="backup,bsl"/>
   <project name="cbbs" remote="couchbase-priv" revision="b3dfd65347c54ea31637c6aca7b6193c9f39ddd6" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="backup,notdefault,enterprise"/>
@@ -48,7 +48,7 @@
   <project name="cuckoofilter" path="godeps/src/github.com/seiflotfy/cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="57492c80834575f4199cff5fff94cb4f4c7c6af6"/>
   <project name="errors" path="godeps/src/github.com/pkg/errors" remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833"/>
-  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="a485b52de25bf34a45667900bfc7eb09bc738ffb" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise"/>
+  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="09cb5331420e24e90674aa585970c15af8496bc8" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" revision="74480d356501cd7106987b242dc5deda9aeaeb60" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise"/>
   <project name="flatbuffers" path="godeps/src/github.com/google/flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303"/>
   <project name="forestdb" revision="90097ba4fe0a3e1c219de3341897a2605f58fb20" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="backup"/>
@@ -94,7 +94,7 @@
   <project name="gsl-lite" path="third_party/gsl-lite" remote="couchbasedeps" revision="93607223a48621dae3cedd6b3335431b38067fae" upstream="refs/tags/v0.34.0" dest-branch="refs/tags/v0.34.0" groups="kv"/>
   <project name="gtreap" path="godeps/src/github.com/steveyen/gtreap" remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70"/>
   <project name="httprouter" path="godeps/src/github.com/julienschmidt/httprouter" remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="720d6b865b88934346017e1ce177a3b69fb1c7e4" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="bsl"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="cd8522ab3bde57719727718bc329176e866995c0" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="bsl"/>
   <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994"/>
   <project name="jsonparser" path="godeps/src/github.com/buger/jsonparser" remote="couchbasedeps" revision="df3ea76ece10095374fd1c9a22a4fb85a44efc42"/>
   <project name="jsonschema" path="godeps/src/github.com/santhosh-tekuri/jsonschema" remote="couchbasedeps" revision="137f44a49015e5060a447c331aa37de6e0f50267"/>
@@ -114,7 +114,7 @@
   <project name="mousetrap" path="godeps/src/github.com/inconshreveable/mousetrap" remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"/>
   <project name="msgp" path="godeps/src/github.com/tinylib/msgp" remote="couchbasedeps" revision="5bb5e1aed7ba5bcc93307153b020e7ffe79b0509"/>
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="couchbasedeps" revision="043ee6597c29786140136a5747b6a886364f5282"/>
-  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" revision="9ebba7dab734bf3925fc135266b70b0caff4c8f5" upstream="cheshire-cat" dest-branch="cheshire-cat"/>
+  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" revision="a782b34ee606a8217992b9c1ef7ebb96973b8ad2" upstream="cheshire-cat" dest-branch="cheshire-cat"/>
   <project name="net" path="godeps/src/golang.org/x/net" remote="couchbasedeps" revision="44b7c21cbf19450f38b337eb6b6fe4f6496fb5b3"/>
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="89c78ce461c1e1d24e34b5027618104aeb8ecf01" upstream="cheshire-cat" dest-branch="cheshire-cat"/>
   <project name="npipe" path="godeps/src/github.com/natefinch/npipe" remote="couchbasedeps" revision="272c8150302e83f23d32a355364578c9c13ab20f"/>
@@ -128,7 +128,7 @@
   <project name="pierrec-xxHash" path="godeps/src/github.com/pierrec/xxHash" remote="couchbasedeps" revision="a0006b13c722f7f12368c00a3d3c2ae8a999a0c6"/>
   <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" revision="7f611b8be8139b423d6aba92672137ae154ff7f8" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="notdefault,enterprise"/>
   <project name="platform" revision="88505bcda4aca96fb3722028994aab27ec181e5b" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="kv"/>
-  <project name="product-metadata" revision="fd399c0bf530c9a534d23b5720337888148b4416" upstream="master" dest-branch="master" groups="notdefault,packaging"/>
+  <project name="product-metadata" revision="ac51c8cef5e77a574699d9d30eb86439c081bf1c" upstream="master" dest-branch="master" groups="notdefault,packaging"/>
   <project name="product-texts" revision="457b7c10d6e81e60bb4781bf47101f42ebe5ea1e" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="kv"/>
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" revision="4b2bf53ca50315e1043e3c6a55e11baedb7fcfec" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="bsl"/>
@@ -141,9 +141,9 @@
   <project name="strconv" path="godeps/src/github.com/tdewolff/strconv" remote="couchbasedeps" revision="9b189f5be77f33c46776f24dbddb2a7ab32af214"/>
   <project name="subjson" revision="7f2d37f2842554ebeca0fc9663b15b9d60d1fad4" groups="kv"/>
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="12a6c2dcc1e4cb348b57847c73987099e261714b"/>
-  <project name="testrunner" revision="fb0cbb33ec5fe5b14aa531e30e02fcd1727a824e" upstream="cheshire-cat" dest-branch="cheshire-cat"/>
+  <project name="testrunner" revision="443ea52e04a68505b60f25d9c300f57938d08cc3" upstream="cheshire-cat" dest-branch="cheshire-cat"/>
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="383b2e75a7a4198c42f8f87833eefb772868a56f" upstream="refs/tags/v0.3.7" dest-branch="refs/tags/v0.3.7"/>
-  <project name="tlm" revision="d16076e65da4daef419826f9076c29faaf12a92f" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="kv">
+  <project name="tlm" revision="11936be0d428afd3c55eb0dad5ee17db10c7b6b3" upstream="cheshire-cat" dest-branch="cheshire-cat" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
