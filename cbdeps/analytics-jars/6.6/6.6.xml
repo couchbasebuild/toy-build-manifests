@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="main"/>
+  
+  <project name="analytics-dcp-client" path="cbas/java-dcp-client" revision="1e34722e75d805eb61930773c91c36603f478212"/>
+  <project name="asterixdb" path="cbas/asterixdb" revision="77caf7e9889876cea534bc73aa70c97de0613c88" upstream="mad-hatter" dest-branch="mad-hatter"/>
+  <project name="build" revision="ae56550548113caaf24d77a3a55af8f1f317b4e0">
+    <annotation name="VERSION" value="6.6"/>
+  </project>
+  <project name="cbas-core" path="cbas" remote="couchbase-priv" revision="c1e78c29b921dbe10893ec40598f3ddb2380d6e6" upstream="mad-hatter" dest-branch="mad-hatter"/>
+</manifest>
