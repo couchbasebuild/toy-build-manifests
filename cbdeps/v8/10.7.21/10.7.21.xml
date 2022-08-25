@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="ca92a4864bbcc878fb7b00f3c94c2c534c7ebd1a" upstream="master" dest-branch="master">
+    <annotation name="VERSION" value="9.7.37"/>
+  </project>
+  <project name="build-tools" revision="d7ba1b9368dd0a251aaf337c410ef9389b15620f" upstream="master" dest-branch="master"/>
+</manifest>
