@@ -30,7 +30,7 @@
   <project name="clang-format" path="v8/buildtools/clang_format/script" remote="clang-tools" revision="8b525d2747f2584fc35d8c7e612e66f377858df7"/>
   <project name="common" path="v8/base/trace_event/common" remote="base-trace_event" revision="2ba7a48ca6167ee8ef311a7f3bc60b5e5cf5ee79"/>
   <project name="depot_tools" path="v8/third_party/depot_tools" remote="chromium-tools" revision="44b73307ee51f90f632088f6d08c56cd3cabf8df"/>
-  <project name="gn" remote="gn.googlesource.com" revision="5705e56a0e5856621415cfdf444432554e72c9c9" upstream="main" dest-branch="main"/>
+  <project name="gn" remote="gn.googlesource.com" revision="00b741b1568d56cf4e117dcb9f70cd42653b4c78" upstream="main" dest-branch="main"/>
   <project name="googletest" path="v8/third_party/googletest/src" remote="github.com-google" revision="af29db7ec28d6df1c7f0f745186884091e602e07"/>
   <project name="icu" path="v8/third_party/icu" remote="chromium-deps" revision="31c77cbfff890d173237f51b3c5930416b3d5b24"/>
   <project name="instrumented_libraries" path="v8/third_party/instrumented_libraries" remote="src-third_party" revision="e09c4b66b6e87116eb190651421f1a6e2f3b9c52"/>
