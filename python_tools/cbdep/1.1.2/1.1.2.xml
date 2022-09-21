@@ -9,5 +9,5 @@
   <project name="build" path="cbbuild" revision="89467fdea78ec6c84fa423756a1210056ac5c199">
     <annotation name="VERSION" value="1.1.2"/>
   </project>
-  <project name="cbdep" remote="couchbasebuild" revision="86f3fb793176e7051bb8fd8b6daae4264312b3d0" upstream="master" dest-branch="master"/>
+  <project name="cbdep" remote="couchbasebuild" revision="a248a41d5160d32ca7eaf91032c292c6960ed34d" upstream="master" dest-branch="master"/>
 </manifest>
