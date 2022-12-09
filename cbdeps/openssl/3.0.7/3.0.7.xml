@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="3.0.7"/>
   </project>
-  <project name="build-tools" revision="148a3c962c7ca85a27d36fbe17b1cd043273fd39" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="8ddb41bd5894ee05b51b56048b67616a41b05dbf" upstream="master" dest-branch="master"/>
   <project name="openssl" remote="couchbasedeps" revision="19cc035b6c6f2283573d29c7ea7f7d675cf750ce" upstream="refs/tags/openssl-3.0.7" dest-branch="refs/tags/openssl-3.0.7"/>
 </manifest>
