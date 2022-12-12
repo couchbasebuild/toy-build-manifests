@@ -6,8 +6,8 @@
   <default remote="couchbase" revision="master"/>
   
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
-    <annotation name="VERSION" value="1.1.1p"/>
+    <annotation name="VERSION" value="1.1.1q"/>
   </project>
-  <project name="build-tools" revision="01625833184cbf0bb952209adbefe5c8c96b0304" upstream="master" dest-branch="master"/>
-  <project name="openssl" remote="couchbasedeps" revision="8aaca20cf9996257d1ce2e6f4d3059b3698dde3d" upstream="refs/tags/OpenSSL_1_1_1p" dest-branch="refs/tags/OpenSSL_1_1_1p"/>
+  <project name="build-tools" revision="8ddb41bd5894ee05b51b56048b67616a41b05dbf" upstream="master" dest-branch="master"/>
+  <project name="openssl" remote="couchbasedeps" revision="29708a562a1887a91de0fa6ca668c71871accde9" upstream="refs/tags/OpenSSL_1_1_1q" dest-branch="refs/tags/OpenSSL_1_1_1q"/>
 </manifest>
