@@ -24,13 +24,13 @@
   <project name="build" path="cbbuild" remote="couchbase" revision="ca92a4864bbcc878fb7b00f3c94c2c534c7ebd1a">
     <annotation name="VERSION" value="10.9.194.5"/>
   </project>
-  <project name="build-tools" remote="couchbase" revision="8ddb41bd5894ee05b51b56048b67616a41b05dbf" upstream="master" dest-branch="master"/>
+  <project name="build-tools" remote="couchbase" revision="5d18011ccab2d686d46f4f1917bbde7fc5cccae3" upstream="master" dest-branch="master"/>
   <project name="buildtools" path="v8/buildtools" remote="chromium-src" revision="49ac7cf34ab2e59a10629a7a722cfb94348c4996"/>
   <project name="clang" path="v8/tools/clang" remote="src-tools" revision="d3df9cc5362e0af4cda798b0612dde39783b3dc0"/>
   <project name="clang-format" path="v8/buildtools/clang_format/script" remote="clang-tools" revision="8b525d2747f2584fc35d8c7e612e66f377858df7"/>
   <project name="common" path="v8/base/trace_event/common" remote="base-trace_event" revision="521ac34ebd795939c7e16b37d9d3ddb40e8ed556"/>
   <project name="depot_tools" path="v8/third_party/depot_tools" remote="chromium-tools" revision="ae1a70891738fb14f64fbb884e00b87ac663aa15"/>
-  <project name="gn" remote="gn.googlesource.com" revision="70d6c60823c0233a0f35eccc25b2b640d2980bdc" upstream="main" dest-branch="main"/>
+  <project name="gn" remote="gn.googlesource.com" revision="5e19d2fb166fbd4f6f32147fbb2f497091a54ad8" upstream="main" dest-branch="main"/>
   <project name="googletest" path="v8/third_party/googletest/src" remote="github.com-google" revision="af29db7ec28d6df1c7f0f745186884091e602e07"/>
   <project name="icu" path="v8/third_party/icu" remote="chromium-deps" revision="da07448619763d1cde255b361324242646f5b268"/>
   <project name="instrumented_libraries" path="v8/third_party/instrumented_libraries" remote="src-third_party" revision="7bb87a375ffc3effd17a50f690099dcfb9ee280b"/>
