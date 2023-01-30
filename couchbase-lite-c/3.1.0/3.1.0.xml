@@ -13,12 +13,12 @@
   <project name="build" path="cbbuild" revision="fc128b31071379f821428b2a9728b04a0d7975d7" upstream="master" dest-branch="master">
     <annotation name="VERSION" value="3.1.0"/>
   </project>
-  <project name="couchbase-lite-c" revision="0db1534effad486c7e96bf0cd373b881d183bf68" upstream="master" dest-branch="master">
+  <project name="couchbase-lite-c" revision="086aba9b5eed7a38d6dbef7a0b618a773f2bcf80" upstream="feature/CBL-3986" dest-branch="feature/CBL-3986">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="00ec82d858d180995bb3930d2559b9c600cdcb2c" upstream="main" dest-branch="main" groups="notdefault,enterprise"/>
-  <project name="couchbase-lite-core" path="couchbase-lite-c/vendor/couchbase-lite-core" revision="361d03053cf7b58582fe517d6b4d024b0821a058"/>
-  <project name="couchbase-lite-core-EE" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="554ec51c9988bf755a1d4cb7dcb3c9098fff800f" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="f3a31fa2883fa3af1036801b1bb39c175bbe65fe" upstream="main" dest-branch="main" groups="enterprise"/>
+  <project name="couchbase-lite-core" path="couchbase-lite-c/vendor/couchbase-lite-core" revision="aa09f464733b4ce3b9b8a9a9cf83d864f8cdaa5a" upstream="master" dest-branch="master"/>
+  <project name="couchbase-lite-core-EE" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="554ec51c9988bf755a1d4cb7dcb3c9098fff800f" groups="enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-c/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="fleece" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/fleece" revision="dcaa54943e6fcf05a610476912299873b5328bf7"/>
   <project name="googletest" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
