@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
+    <annotation name="VERSION" value="1.20.3"/>
+  </project>
+  <project name="build-tools" revision="6cc055f21085ef5d584ae1222e7bb30376448b33" upstream="master" dest-branch="master"/>
+  <project name="libuv" remote="couchbasedeps" revision="64a01c45ead5842eade71ed2d646612d4a402f0e" upstream="v1.20.3-couchbase" dest-branch="v1.20.3-couchbase"/>
+</manifest>
