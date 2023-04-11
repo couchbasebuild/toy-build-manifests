@@ -11,11 +11,10 @@
   
   <project name="SQLiteCpp" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/SQLiteCpp" remote="couchbasedeps" revision="703aefabca4a3381201395a53176a7c5eba78f5e"/>
   <project name="build" path="cbbuild" revision="2520a92f8df0dbd15b118f0c63b4bf35a9e97c35" upstream="master" dest-branch="master">
+    <copyfile src="scripts/jenkins/lite-c/CMakeLists.txt" dest="CMakeLists.txt"/>
     <annotation name="VERSION" value="3.0.12"/>
   </project>
-  <project name="couchbase-lite-c" revision="c60dcac7960412aea2673bc3cb04147424a716b5" upstream="release/lithium" dest-branch="release/lithium">
-    <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
-  </project>
+  <project name="couchbase-lite-c" revision="c60dcac7960412aea2673bc3cb04147424a716b5" upstream="release/lithium" dest-branch="release/lithium"/>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="3becb76d6387c93f46784df4acd9b79c5c3c1a4d" upstream="release/lithium" dest-branch="release/lithium" groups="enterprise"/>
   <project name="couchbase-lite-core" path="couchbase-lite-c/vendor/couchbase-lite-core" revision="7b69dce7e04fa47164f4d03b8a3f461cf24a36dd" upstream="fix/cbl-4410_optimization_db_locked" dest-branch="fix/cbl-4410_optimization_db_locked"/>
   <project name="couchbase-lite-core-EE" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="7570126f0a7799a20dd3405eec31c328f31942ee" groups="notdefault,enterprise"/>
