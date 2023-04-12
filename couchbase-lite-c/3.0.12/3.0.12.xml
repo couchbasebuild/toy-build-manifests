@@ -16,7 +16,7 @@
   </project>
   <project name="couchbase-lite-c" revision="c60dcac7960412aea2673bc3cb04147424a716b5" upstream="release/lithium" dest-branch="release/lithium"/>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="3becb76d6387c93f46784df4acd9b79c5c3c1a4d" upstream="release/lithium" dest-branch="release/lithium" groups="enterprise"/>
-  <project name="couchbase-lite-core" path="couchbase-lite-c/vendor/couchbase-lite-core" revision="7b69dce7e04fa47164f4d03b8a3f461cf24a36dd" upstream="fix/cbl-4410_optimization_db_locked" dest-branch="fix/cbl-4410_optimization_db_locked"/>
+  <project name="couchbase-lite-core" path="couchbase-lite-c/vendor/couchbase-lite-core" revision="396ebe0a274c057495c0e5b91dad8d7382e59f76" upstream="fix/cbl-4410_optimization_db_locked" dest-branch="fix/cbl-4410_optimization_db_locked"/>
   <project name="couchbase-lite-core-EE" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="156754ffda07da2065353d710b380b6b457d4d23" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-c/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="fleece" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/fleece" revision="6364f7a0ff7fdcd9936e6dd26ef54ff935ac46ab"/>
