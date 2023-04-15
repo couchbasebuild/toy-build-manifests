@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="2520a92f8df0dbd15b118f0c63b4bf35a9e97c35" upstream="master" dest-branch="master">
+    <annotation name="VERSION" value="3.2.0"/>
+  </project>
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="d5d35c8942723c7aa2597cddb21323d859b475cb" upstream="feature/cbl-4217_no_litecore_submodule" dest-branch="feature/cbl-4217_no_litecore_submodule"/>
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="55d593d3baf0399da7d153b157c9b1afbc536018" upstream="remove_core_ee_submodule" dest-branch="remove_core_ee_submodule" groups="enterprise"/>
+  <project name="product-texts" revision="ec09296ae7979a7bf5ca80c25842afca45e0ec99" upstream="master" dest-branch="master"/>
+</manifest>
