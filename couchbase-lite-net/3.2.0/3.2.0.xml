@@ -2,6 +2,7 @@
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   
   <default remote="couchbase" revision="master"/>
   
@@ -10,5 +11,6 @@
   </project>
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="d5d35c8942723c7aa2597cddb21323d859b475cb" upstream="feature/cbl-4217_no_litecore_submodule" dest-branch="feature/cbl-4217_no_litecore_submodule"/>
   <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="55d593d3baf0399da7d153b157c9b1afbc536018" upstream="remove_core_ee_submodule" dest-branch="remove_core_ee_submodule" groups="enterprise"/>
+  <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="a25b27b50baed58a7b05f8b8151a3269b5007044" upstream="main" dest-branch="main"/>
   <project name="product-texts" revision="ec09296ae7979a7bf5ca80c25842afca45e0ec99" upstream="master" dest-branch="master"/>
 </manifest>
