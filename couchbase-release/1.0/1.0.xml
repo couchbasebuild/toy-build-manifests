@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="ec672f1885ff7e7329b4c9920f41c1f20c1a08bf">
+    <annotation name="VERSION" value="1.0"/>
+  </project>
+  <project name="build-tools" revision="3a1c8bae63ceab9c704aded1fbb2f3f129cb6587" upstream="master" dest-branch="master"/>
+  <project name="product-metadata" revision="ced1ec2d8b9898ee519fcf3f471c48849c64daa9" upstream="master" dest-branch="master"/>
+</manifest>
