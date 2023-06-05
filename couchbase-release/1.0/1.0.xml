@@ -8,5 +8,5 @@
     <annotation name="VERSION" value="1.0"/>
   </project>
   <project name="build-tools" revision="3a1c8bae63ceab9c704aded1fbb2f3f129cb6587" upstream="master" dest-branch="master"/>
-  <project name="product-metadata" revision="ced1ec2d8b9898ee519fcf3f471c48849c64daa9" upstream="master" dest-branch="master"/>
+  <project name="product-metadata" revision="14b7b6918efa10b6cbc344068b20f968d3b69f19" upstream="master" dest-branch="master"/>
 </manifest>
