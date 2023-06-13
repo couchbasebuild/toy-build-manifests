@@ -7,5 +7,5 @@
   <project name="build" path="cbbuild" revision="8ba9841f5fd3b60f22203be47bc6e81f7b9b6b2e">
     <annotation name="VERSION" value="1.0.0"/>
   </project>
-  <project name="couchbase-odbc-driver" revision="ff804079a32a8f699b184d7636406a7635796710" upstream="main" dest-branch="main"/>
+  <project name="couchbase-odbc-driver" revision="ff804079a32a8f699b184d7636406a7635796710" upstream="main" dest-branch="main" sync-s="true"/>
 </manifest>
