@@ -13,10 +13,10 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.2.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="ea8ef64ed2d86cbf9676046f4b162edbd733ae7a" upstream="android_new_getifaddrs" dest-branch="android_new_getifaddrs">
+  <project name="couchbase-lite-core" revision="25a18ae08dd677428c6ca4a8e152a96d8823e9df" upstream="beryllium-toybuild" dest-branch="beryllium-toybuild">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="7570126f0a7799a20dd3405eec31c328f31942ee" upstream="master" dest-branch="master" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="8a929fb3d22b79cbbb90881e8d66d8192144fea1" upstream="master" dest-branch="master" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="fleece" path="couchbase-lite-core/vendor/fleece" revision="dcaa54943e6fcf05a610476912299873b5328bf7"/>
   <project name="googletest" path="couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
