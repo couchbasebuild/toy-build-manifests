@@ -15,10 +15,10 @@
   <project name="build" revision="844e2484067053d7af88e706a814766265bf03df">
     <annotation name="VERSION" value="3.0.12"/>
   </project>
-  <project name="couchbase-lite-core" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core" revision="94af1bbc38e763c428397deec1cb41f41a2c45e8" upstream="hotfix/3.0.12.1" dest-branch="hotfix/3.0.12.1"/>
+  <project name="couchbase-lite-core" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core" revision="4ce1e196be62765e5772feb9f1165fe4a933ae31" upstream="hotfix/3.0.12.1" dest-branch="hotfix/3.0.12.1"/>
   <project name="couchbase-lite-core-EE" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="156754ffda07da2065353d710b380b6b457d4d23" groups="enterprise,notdefault"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
-  <project name="couchbase-lite-ios" path="couchbase-lite-ios-ee/couchbase-lite-ios" revision="524af293bbaf1428d8edf463151183ef2ab903d8" upstream="hotfix/3.0.12.1" dest-branch="hotfix/3.0.12.1"/>
+  <project name="couchbase-lite-ios" path="couchbase-lite-ios-ee/couchbase-lite-ios" revision="b5efcc954fcddb3e18a116168c477a171464a33f" upstream="hotfix/3.0.12.1" dest-branch="hotfix/3.0.12.1"/>
   <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="0ab087561cd5f9eeda27d6146cafb2defd8928a4" upstream="release/lithium" dest-branch="release/lithium" groups="enterprise,notdefault"/>
   <project name="fleece" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece" revision="6364f7a0ff7fdcd9936e6dd26ef54ff935ac46ab"/>
   <project name="googletest" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
