@@ -9,5 +9,5 @@
     <annotation name="VERSION" value="3.1.2"/>
   </project>
   <project name="build-tools" revision="5dde87a77aa4dd1cf432a1fd4ccdcd47d2881b35" upstream="master" dest-branch="master"/>
-  <project name="openssl" remote="couchbasedeps" revision="fbd23b929609c0b2fe22da97ac349fae5a385027"/>
+  <project name="openssl" remote="couchbasedeps" revision="17a2c5111864d8e016c5f2d29c40a3746b559e9d" upstream="refs/tags/openssl-3.1.2" dest-branch="refs/tags/openssl-3.1.2"/>
 </manifest>
