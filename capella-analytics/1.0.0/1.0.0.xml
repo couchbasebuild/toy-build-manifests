@@ -12,7 +12,7 @@
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="16365e6f3bf641f439c431d7f867d01556e681a9" upstream="master" dest-branch="master" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" path="analytics/asterixdb" revision="642c0fe79df3b42112f72270174fde3b4526f7fe" upstream="master" dest-branch="master" groups="notdefault,enterprise,analytics"/>
   <project name="backup" remote="couchbase-priv" revision="8985795520b0938e40f69399685a30a8124ee5a8" upstream="master" dest-branch="master" groups="backup,notdefault,enterprise"/>
-  <project name="build" path="cbbuild" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a" upstream="master" dest-branch="master" groups="notdefault,build">
+  <project name="build" path="cbbuild" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a" groups="notdefault,build">
     <annotation name="VERSION" value="1.0.0"/>
     <annotation name="SERVER_VERSION" value="7.6.100"/>
   </project>
@@ -31,7 +31,6 @@
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="f935d1fdfc36541b505cf86fea4822e4067f9c39" upstream="master" dest-branch="master"/>
   <project name="common" path="godeps/src/github.com/prometheus/common" remote="couchbasedeps" revision="902cb39e6c079571d32c2db8da220da13c11b562" upstream="refs/tags/v0.33.0" dest-branch="refs/tags/v0.33.0"/>
   <project name="couchbase-cli" revision="9e819df422aac417c7287bc7b8eb725ac49a50f2" upstream="master" dest-branch="master" groups="kv"/>
-  <project name="couchbase-jvm-core" path="analytics/couchbase-jvm-core" revision="b712718b5a9a3ea4699e537871644446494fe9e3" upstream="refs/tags/1.7.24" dest-branch="refs/tags/1.7.24" groups="notdefault,enterprise,analytics"/>
   <project name="couchdb" revision="bec30466867d5bf2f5ac165be44e7ca45f8bc5e0" upstream="master" dest-branch="unstable"/>
   <project name="couchdbx-app" revision="fabf6e27a8682ea3203592df62940de2dba4ca6d" upstream="master" dest-branch="master" groups="notdefault,packaging"/>
   <project name="couchstore" revision="896e144638ca6971027685c4982f311f6ee867ab" upstream="master" dest-branch="master" groups="kv"/>
