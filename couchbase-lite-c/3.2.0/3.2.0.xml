@@ -17,7 +17,7 @@
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="139dbaca7e435a3395225155a4e753cf80f4ab9e" upstream="feature/version-vector" dest-branch="feature/version-vector" groups="enterprise"/>
-  <project name="couchbase-lite-core" path="couchbase-lite-c/vendor/couchbase-lite-core" revision="a660db2f7c31d78ead8116f91ceace96e271bf87"/>
+  <project name="couchbase-lite-core" path="couchbase-lite-c/vendor/couchbase-lite-core" revision="78a6a087342a33b3848a174bec1597eacf517564"/>
   <project name="couchbase-lite-core-EE" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="6a5fc13a3edc2408d1148ca81698c77cf4af73ca" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-c/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="fleece" path="couchbase-lite-c/vendor/couchbase-lite-core/vendor/fleece" revision="33710241d9115620ff89567bc59060041f9f3394"/>
