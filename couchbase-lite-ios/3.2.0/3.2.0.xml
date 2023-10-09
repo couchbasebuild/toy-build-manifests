@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="google" fetch="https://github.com/google/"/>
+  <remote name="snej" fetch="https://github.com/snej/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="MYUtilities" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/MYUtilities" remote="couchbasedeps" revision="e5d39ec667d1fc1b6b9579b6dcb8c9ff31c20e4b"/>
+  <project name="SQLiteCpp" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp" remote="couchbasedeps" revision="8a522a52ba532ac733198ba87471f64abae73b05"/>
+  <project name="build" revision="844e2484067053d7af88e706a814766265bf03df">
+    <annotation name="VERSION" value="3.2.0"/>
+  </project>
+  <project name="couchbase-lite-core" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core" revision="650240dc56849c750089022a441f9718c05bcac2"/>
+  <project name="couchbase-lite-core-EE" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="6a5fc13a3edc2408d1148ca81698c77cf4af73ca" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-core.wiki" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
+  <project name="couchbase-lite-ios" path="couchbase-lite-ios-ee/couchbase-lite-ios" revision="574c78c243825b0afa4f9ced682911f5798c64b7" upstream="vv-toy" dest-branch="vv-toy"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="272db20716f6c89476ec54d5329ad91da4f6147c" upstream="vv-toy" dest-branch="vv-toy" groups="enterprise,notdefault"/>
+  <project name="fleece" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece" revision="33710241d9115620ff89567bc59060041f9f3394"/>
+  <project name="googletest" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
+  <project name="ios-cmake" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
+  <project name="jsonsl" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c"/>
+  <project name="mbedtls" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/mbedtls" remote="couchbasedeps" revision="c2aae8d4cf4710ff5944d7c85abb351b035572c0"/>
+  <project name="product-texts" revision="ec09296ae7979a7bf5ca80c25842afca45e0ec99" upstream="master" dest-branch="master"/>
+  <project name="sockpp" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sockpp" remote="couchbasedeps" revision="01c7560ed14bf5a935f7e899f9eb4f72f7403d5d"/>
+  <project name="sqlite3-unicodesn" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597"/>
+  <project name="zlib" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/zlib" remote="couchbasedeps" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc"/>
+</manifest>
