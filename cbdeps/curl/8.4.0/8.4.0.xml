@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="8.4.0"/>
   </project>
-  <project name="build-tools" revision="631a6d2866b7171de9b5336632af52d7b03ab4e8" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="8b810d1c8bdeaf863d1e45dfd44f297b97600156" upstream="master" dest-branch="master"/>
   <project name="curl" remote="couchbasedeps" revision="d755a5f7c009dd63a61b2c745180d8ba937cbfeb" upstream="refs/tags/curl-8_4_0" dest-branch="refs/tags/curl-8_4_0"/>
 </manifest>
