@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org"/>
-  <remote name="couchbasecloud" fetch="https://github.com/couchbasecloud"/>
+  <remote name="couchbasecloud-priv" fetch="ssh://git@github.com/couchbasecloud/"/>
   
-  <default remote="couchbasecloud" revision="main"/>
+  <default remote="couchbasecloud-priv" revision="main"/>
   
   <project name="build" remote="couchbase" revision="c1b485bbf14aa1176be5ea26b7982f4002188429">
     <annotation name="VERSION" value="1.0.0"/>
