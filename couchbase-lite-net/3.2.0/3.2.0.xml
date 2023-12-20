@@ -9,8 +9,8 @@
   <project name="build" path="cbbuild" revision="cedf9d4ec929eac7e61f8e86488aeac5402c8563" upstream="master" dest-branch="master">
     <annotation name="VERSION" value="3.2.0"/>
   </project>
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="595d95e174fd63110df7a0844d01b3883553bd35" upstream="packaging_rework" dest-branch="packaging_rework"/>
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="5d38b03784285210355aa6b7a91ad6ddb24a9b58" upstream="packaging_rework" dest-branch="packaging_rework" groups="enterprise"/>
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="108e47c576ade196d9d503b1ae91e67566711f1b" upstream="packaging_rework" dest-branch="packaging_rework"/>
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="b38803344034e3a3e96123f322648bffdb0468c8" upstream="packaging_rework" dest-branch="packaging_rework" groups="enterprise"/>
   <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="a25b27b50baed58a7b05f8b8151a3269b5007044" upstream="main" dest-branch="main"/>
   <project name="product-texts" revision="ec09296ae7979a7bf5ca80c25842afca45e0ec99" upstream="master" dest-branch="master"/>
 </manifest>
