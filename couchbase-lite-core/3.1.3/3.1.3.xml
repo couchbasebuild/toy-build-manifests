@@ -13,7 +13,7 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.1.3"/>
   </project>
-  <project name="couchbase-lite-core" revision="4e851e01cbbe1e213ac6e0d64a1879f69b59e808" upstream="hotfix/3.1.3.2" dest-branch="hotfix/3.1.3.2">
+  <project name="couchbase-lite-core" revision="f873528fd13c4957ad176f79ec09514422f60ed3" upstream="hotfix/sanitizer_build" dest-branch="hotfix/sanitizer_build">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="2798a6e00ecefbad4cfc3e881f11954a23bdc6e8" upstream="release/3.1" dest-branch="release/3.1" groups="notdefault,enterprise"/>
