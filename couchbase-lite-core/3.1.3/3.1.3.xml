@@ -13,12 +13,12 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.1.3"/>
   </project>
-  <project name="couchbase-lite-core" revision="43a4693aed2c5ad3a9556c7be18991393b9b58d1" upstream="hotfix/sanitizer_build" dest-branch="hotfix/sanitizer_build">
+  <project name="couchbase-lite-core" revision="3c5c9d49442502157291d1a6d5e704f4598a1e39" upstream="fix/fleece_dictIter_crash" dest-branch="fix/fleece_dictIter_crash">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="2798a6e00ecefbad4cfc3e881f11954a23bdc6e8" upstream="release/3.1" dest-branch="release/3.1" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
-  <project name="fleece" path="couchbase-lite-core/vendor/fleece" revision="7cf5da5b022b3d85e54edd0a4074706edc33e59d"/>
+  <project name="fleece" path="couchbase-lite-core/vendor/fleece" revision="cbed72a7cde073a6dcc41ba42c1ed345e315ab8c" upstream="fix/dict_iter_keyString_crash" dest-branch="fix/dict_iter_keyString_crash"/>
   <project name="googletest" path="couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
   <project name="ios-cmake" path="couchbase-lite-core/vendor/ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
   <project name="jsonsl" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c"/>
