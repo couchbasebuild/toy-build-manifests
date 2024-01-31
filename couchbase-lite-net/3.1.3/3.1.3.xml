@@ -15,7 +15,7 @@
     <annotation name="VERSION" value="3.1.3"/>
   </project>
   <project name="couchbase-lite-core" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core" revision="3c5c9d49442502157291d1a6d5e704f4598a1e39" upstream="fix/fleece_dictIter_crash" dest-branch="fix/fleece_dictIter_crash"/>
-  <project name="couchbase-lite-core-EE" path="couchbase-lite-net-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="7570126f0a7799a20dd3405eec31c328f31942ee" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-core-EE" path="couchbase-lite-net-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="2798a6e00ecefbad4cfc3e881f11954a23bdc6e8" upstream="release/3.1" dest-branch="release/3.1" groups="enterprise,notdefault"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="7a81d25d4f35a6bcf76d4e905c3e911c39823c2d" upstream="fix/cbl-5357_dict_iterator" dest-branch="fix/cbl-5357_dict_iterator"/>
   <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="47d156b264b779e4c61b30233fb977ced0d1a6a7" upstream="fix/fleece_dictIter_crash" dest-branch="fix/fleece_dictIter_crash" groups="enterprise,notdefault"/>
