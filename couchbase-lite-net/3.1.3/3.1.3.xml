@@ -18,7 +18,7 @@
   <project name="couchbase-lite-core-EE" path="couchbase-lite-net-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="7570126f0a7799a20dd3405eec31c328f31942ee" groups="enterprise,notdefault"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="7a81d25d4f35a6bcf76d4e905c3e911c39823c2d" upstream="fix/cbl-5357_dict_iterator" dest-branch="fix/cbl-5357_dict_iterator"/>
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="4d851ab1406e477d4cdd1d87b685fc2aac430b66" upstream="release/3.1" dest-branch="release/3.1" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="47d156b264b779e4c61b30233fb977ced0d1a6a7" upstream="fix/fleece_dictIter_crash" dest-branch="fix/fleece_dictIter_crash" groups="enterprise,notdefault"/>
   <project name="fleece" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece" revision="cbed72a7cde073a6dcc41ba42c1ed345e315ab8c" upstream="fix/dict_iter_keyString_crash" dest-branch="fix/dict_iter_keyString_crash"/>
   <project name="googletest" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
   <project name="ios-cmake" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
