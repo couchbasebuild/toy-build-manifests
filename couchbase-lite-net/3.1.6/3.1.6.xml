@@ -19,7 +19,7 @@
   <project name="couchbase-lite-core-EE" path="couchbase-lite-net-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="6bab5db9bd80bd4577a62932dc1ab819cd5097e8" groups="enterprise,notdefault"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="94aaa112b925bbe7102f34162fbb6b6c6a07e92b" upstream="fix/cbl-5430_build_server_changes" dest-branch="fix/cbl-5430_build_server_changes"/>
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="7252d9b11c2e61f851c8d8e0642fc80c6386a4b6" upstream="fix/build_server_changes" dest-branch="fix/build_server_changes" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="f0c03e7f964ee94f900a2ccc67e3de6a369b90f2" upstream="fix/build_server_changes" dest-branch="fix/build_server_changes" groups="enterprise,notdefault"/>
   <project name="fleece" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece" revision="7ab05e5d530d8c338b92b9349756381285ba46e8"/>
   <project name="googletest" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
   <project name="ios-cmake" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
