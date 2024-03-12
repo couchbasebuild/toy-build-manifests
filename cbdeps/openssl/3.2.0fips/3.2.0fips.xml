@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
+    <annotation name="VERSION" value="3.2.0fips"/>
+  </project>
+  <project name="build-tools" revision="4fd69a843702981f40d346828fe5ee0602b0f271" upstream="master" dest-branch="master"/>
+  <project name="openssl" remote="couchbasedeps" revision="cf2877791ce7508684109664f467c9e40987692f" upstream="refs/tags/openssl-3.2.0" dest-branch="refs/tags/openssl-3.2.0"/>
+</manifest>
