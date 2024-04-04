@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
+    <annotation name="VERSION" value="5.3.0"/>
+  </project>
+  <project name="build-tools" revision="d7d042daff40b8a20970c936df8690ec3bbfd426" upstream="master" dest-branch="master"/>
+  <project name="jemalloc" remote="couchbasedeps" revision="54eaed1d8b56b1aa528be3bdd1877e59c56fa90c" upstream="refs/tags/5.3.0" dest-branch="refs/tags/5.3.0"/>
+</manifest>
