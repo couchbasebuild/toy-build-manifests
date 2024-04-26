@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="blevesearch" fetch="https://github.com/blevesearch/"/>
+  <remote name="blevesearch" fetch="https://github.com/ceejatec/"/>
   <remote name="couchbase" fetch="https://github.com/couchbase/"/>
   
   <default remote="couchbase" revision="master"/>
   
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="1.7.4"/>
-    <annotation name="OPENBLAS_VERSION" value="0.3.25-1"/>
+    <annotation name="OPENBLAS_VERSION" value="0.3.26-51218"/>
     <annotation name="LLVM_OPENMP_VERSION" value="16.0.4"/>
   </project>
-  <project name="build-tools" revision="aae7390ff9979ed079b328e726474c1411de405b" upstream="master" dest-branch="master"/>
-  <project name="faiss" remote="blevesearch" revision="41439843295adbacb6e9960c80fb07b44d71d594" upstream="bleve" dest-branch="bleve"/>
+  <project name="build-tools" revision="f3c0ac1a6f60006ffb16b517c24454306ad3a914" upstream="master" dest-branch="master"/>
+  <project name="faiss" remote="blevesearch" revision="bd978775b523d76b00424605562a3d4992c1d471" upstream="bleve" dest-branch="bleve"/>
 </manifest>
