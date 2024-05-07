@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="borrrden" fetch="https://github.com/borrrden"/>
   <remote name="couchbase" fetch="https://github.com/couchbase/"/>
   <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
   
@@ -10,5 +9,5 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="0.3.26"/>
   </project>
-  <project name="build-tools" remote="borrrden" revision="1dabc66b71d37cb9f1f1a6ec55cc262c28eceb64" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="db57b86ea02420bf63eabb4b68f531e82e2e39b8" upstream="master" dest-branch="master"/>
 </manifest>
