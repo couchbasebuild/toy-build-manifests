@@ -10,6 +10,6 @@
     <annotation name="OPENBLAS_VERSION" value="0.3.26-5"/>
     <annotation name="LLVM_OPENMP_VERSION" value="16.0.4"/>
   </project>
-  <project name="build-tools" revision="da33dce28b51741784de9cf657e5b13470a6c483" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="7fcf015a373b0255b8ea9dc033139b0882d4e471" upstream="master" dest-branch="master"/>
   <project name="faiss" remote="blevesearch" revision="06f4e48645933914974d1938a21f6e3843d21f92" upstream="unstable" dest-branch="unstable"/>
 </manifest>
