@@ -11,5 +11,5 @@
     <annotation name="LLVM_OPENMP_VERSION" value="16.0.4"/>
   </project>
   <project name="build-tools" revision="3e69efa164309559a68de2df3de7b220922d5782" upstream="master" dest-branch="master"/>
-  <project name="faiss" remote="blevesearch" revision="9294394e70303d64ac377a8e4924faf3a0f40215" upstream="unstable" dest-branch="unstable"/>
+  <project name="faiss" remote="blevesearch" revision="a70620e9f4eda14b41cd3d30205d78eca0cb9c3a" upstream="unstable" dest-branch="unstable"/>
 </manifest>
