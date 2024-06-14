@@ -9,8 +9,8 @@
   <project name="build" path="cbbuild" revision="5cc421ae162516cd8b36e97713f40210c0d52b2e" upstream="master" dest-branch="master">
     <annotation name="VERSION" value="3.2.0"/>
   </project>
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="5df9ba9848c4379e733bd5cb5ceb92547df692fc" upstream="feature/cbl-5749_lazy_index" dest-branch="feature/cbl-5749_lazy_index"/>
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="7cf79465025d773462f4c8b56d8f6eeea7018f44" upstream="feature/lazy_index" dest-branch="feature/lazy_index" groups="enterprise"/>
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="a19d1456388e9157b411c03ef835ccd59b54de30" upstream="feature/cbl-5749_lazy_index" dest-branch="feature/cbl-5749_lazy_index"/>
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="29f4803ad949272e8c4464568191ed079a6bbb1c" upstream="feature/lazy_index" dest-branch="feature/lazy_index" groups="enterprise"/>
   <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="a72684bc4043ad7dd52d8fabb0c773f94c91c4cd" upstream="main" dest-branch="main"/>
   <project name="product-texts" revision="ec39f811376df6d18e56c81873fd565093666505" upstream="master" dest-branch="master"/>
 </manifest>
