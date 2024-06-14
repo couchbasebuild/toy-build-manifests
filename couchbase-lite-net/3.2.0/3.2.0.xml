@@ -6,11 +6,11 @@
   
   <default remote="couchbase" revision="release/3.2"/>
   
-  <project name="build" path="cbbuild" revision="340fa152bc71634e384efcf838f1cd3a87044416" upstream="master" dest-branch="master">
+  <project name="build" path="cbbuild" revision="5cc421ae162516cd8b36e97713f40210c0d52b2e" upstream="master" dest-branch="master">
     <annotation name="VERSION" value="3.2.0"/>
   </project>
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="616fbf5d71786e8c49197ebfa87e2d97eed1fd40" upstream="release/3.2" dest-branch="release/3.2"/>
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="e57734db32786f60007cb72eebceef777b7c35a2" upstream="fix/dispose_derive_bytes" dest-branch="fix/dispose_derive_bytes" groups="enterprise"/>
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="0e0e5a95fbcec810b6b04eb9cbdc6b34da595dad" upstream="feature/cbl-5749_lazy_index" dest-branch="feature/cbl-5749_lazy_index"/>
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="afa0642f08141cf05f745b038c6176a5f5c61d3a" upstream="feature/lazy_index" dest-branch="feature/lazy_index" groups="enterprise"/>
   <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="a72684bc4043ad7dd52d8fabb0c773f94c91c4cd" upstream="main" dest-branch="main"/>
-  <project name="product-texts" revision="8e26ff1c35168d0d60e0020ae367d91c9f9ba00a" upstream="master" dest-branch="master"/>
+  <project name="product-texts" revision="ec39f811376df6d18e56c81873fd565093666505" upstream="master" dest-branch="master"/>
 </manifest>
