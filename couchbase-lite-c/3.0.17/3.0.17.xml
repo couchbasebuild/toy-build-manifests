@@ -13,7 +13,7 @@
   <project name="build" path="cbbuild" revision="cf20ab9c0f7d81838212b1f2d719903ffb4a4d9e">
     <annotation name="VERSION" value="3.0.17"/>
   </project>
-  <project name="couchbase-lite-c" revision="637ac9903762e6251d989cda081dffe954972029" upstream="hotfix/3.0.17-vf001" dest-branch="hotfix/3.0.17-vf001">
+  <project name="couchbase-lite-c" revision="85b70824e5b9538f111ea041a1f0fe1c7103c8d6" upstream="hotfix/3.0.17-vf001" dest-branch="hotfix/3.0.17-vf001">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="3becb76d6387c93f46784df4acd9b79c5c3c1a4d" upstream="release/lithium" dest-branch="release/lithium" groups="enterprise"/>
