@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="1.9.4"/>
   </project>
-  <project name="build-tools" revision="76c0024bbd5de2f95f40fdabd30702681f0c1509" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="95948f654fe601ff9b6679f9c06ae84884a9ba11" upstream="master" dest-branch="master"/>
   <project name="lz4" remote="couchbasedeps" revision="5ff839680134437dbf4678f3d0c7b371d84f4964" upstream="refs/tags/v1.9.4" dest-branch="refs/tags/v1.9.4"/>
 </manifest>
