@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="blevesearch" fetch="https://github.com/blevesearch/"/>
+  <remote name="ceejatec" fetch="https://github.com/ceejatec/"/>
   <remote name="couchbase" fetch="https://github.com/couchbase/"/>
   
   <default remote="couchbase" revision="master"/>
@@ -11,5 +11,5 @@
     <annotation name="LLVM_OPENMP_VERSION" value="16.0.4"/>
   </project>
   <project name="build-tools" revision="948d055bd4b4f05363c11af51a0b1a5d8929b9ae" upstream="master" dest-branch="master"/>
-  <project name="faiss" remote="blevesearch" revision="3306e5853f90f61b4a86d35eb6ee3bd9ee5312d3" upstream="unstable" dest-branch="unstable"/>
+  <project name="faiss" remote="ceejatec" revision="0d4b703116aa5b3964f26b89720f43e980ee75bd" upstream="master" dest-branch="master"/>
 </manifest>
