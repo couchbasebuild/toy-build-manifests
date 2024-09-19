@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="5.2.1"/>
   </project>
-  <project name="build-tools" revision="68b6cf3b1115e8dc7f8bb57ba6628752f7a96fec" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="fbf52b10365d0f22997a70223df8b2a29d26f2f9" upstream="master" dest-branch="master"/>
   <project name="jemalloc" remote="couchbasedeps" revision="ea6b3e973b477b8061e0076bb257dbd7f3faa756" upstream="refs/tags/5.2.1" dest-branch="refs/tags/5.2.1"/>
 </manifest>
