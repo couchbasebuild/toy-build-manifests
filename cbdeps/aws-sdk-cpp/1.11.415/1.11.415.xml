@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="aws-sdk-cpp" remote="couchbasedeps" revision="d2440ce30a73ce48ddf9c22f778de3a406aec02a" upstream="refs/tags/1.11.415" dest-branch="refs/tags/1.11.415"/>
+  <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
+    <annotation name="VERSION" value="1.11.415"/>
+  </project>
+  <project name="build-tools" revision="ac99617e0c77ff690ff56bb6c39b208b49092bdc" upstream="master" dest-branch="master"/>
+</manifest>
