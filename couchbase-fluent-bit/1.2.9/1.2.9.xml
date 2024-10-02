@@ -10,5 +10,5 @@
     <annotation name="GOVERSION" value="SUPPORTED_NEWER"/>
   </project>
   <project name="couchbase-fluent-bit" revision="6be321e0f75936b95f2ea02852ba98282bfac60c" upstream="main" dest-branch="main"/>
-  <project name="golang" remote="couchbaselabs" revision="47e71ba6311be7fddb3eca926f242d80340a266c" upstream="main" dest-branch="main"/>
+  <project name="golang" remote="couchbaselabs" revision="caf6df3210a07f25e9b327f7ecb80cc4c16b8c8d" upstream="main" dest-branch="main"/>
 </manifest>
