@@ -9,7 +9,7 @@
   <project name="build" path="cbbuild" revision="4f749cfaaf61cf5a95b1b5320ea72dc132a48cb9" upstream="master" dest-branch="master">
     <annotation name="VERSION" value="3.2.1"/>
   </project>
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="d9fa68c1244f705fcc1548878de4f1ad312efb5d" upstream="feature/cbl-6376_ios_background" dest-branch="feature/cbl-6376_ios_background"/>
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="ac10293b91f86b51f4bb146f09967c3b35bc8671" upstream="feature/cbl-6376_ios_background" dest-branch="feature/cbl-6376_ios_background"/>
   <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="a752cf4c6b0ccf196beb83a7ae76ba17c262c5b1" upstream="release/3.2" dest-branch="release/3.2" groups="enterprise"/>
   <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="a71a5a9f2bb808cb2c45a82fe39fd5d4c43e5597" upstream="main" dest-branch="main"/>
   <project name="product-texts" revision="a2495004ad0a30424e697b5eaf2aebb8b5d20231" upstream="master" dest-branch="master"/>
