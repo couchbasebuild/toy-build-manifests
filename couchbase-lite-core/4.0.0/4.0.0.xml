@@ -13,7 +13,7 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="4.0.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="883f816e05bb64f4c85166ad66f9be25b07e1aff" upstream="master-debug-build" dest-branch="master-debug-build">
+  <project name="couchbase-lite-core" revision="5917db26fe66506b39e7ef3f6368d621983e49cc" upstream="master-debug-build" dest-branch="master-debug-build">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="2ed137abba312840169a11459831f7bf6617166e" upstream="master" dest-branch="master" groups="notdefault,enterprise"/>
