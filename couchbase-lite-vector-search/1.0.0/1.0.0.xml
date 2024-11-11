@@ -16,4 +16,5 @@
   <project name="googletest" path="mobile-vector-search/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
   <project name="ios-cmake" path="mobile-vector-search/vendor/ios-cmake" remote="couchbasedeps" revision="06465b27698424cf4a04a5ca4904d50a3c966c45"/>
   <project name="mobile-vector-search" remote="couchbaselabs-priv" revision="58aee88c2999f7979c2c2a0e96d7bcca6fe0fddc" upstream="fix/cbl-6406_static_libcxx" dest-branch="fix/cbl-6406_static_libcxx" groups="notdefault,enterprise"/>
+  <project name="product-texts" revision="a2495004ad0a30424e697b5eaf2aebb8b5d20231" upstream="master" dest-branch="master"/>
 </manifest>
