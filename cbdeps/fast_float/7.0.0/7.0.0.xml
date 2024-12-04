@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="4f749cfaaf61cf5a95b1b5320ea72dc132a48cb9" upstream="master" dest-branch="master">
+    <annotation name="VERSION" value="7.0.0"/>
+  </project>
+  <project name="build-tools" revision="7dde8582cb2c74f318c093f4896018aa00bdec44" upstream="master" dest-branch="master"/>
+  <project name="fast_float" remote="couchbasedeps" revision="cb1d42aaa1e14b09e1452cfdef373d051b8c02a4" upstream="refs/tags/v7.0.0" dest-branch="refs/tags/v7.0.0"/>
+</manifest>
