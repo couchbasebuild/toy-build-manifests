@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="4f749cfaaf61cf5a95b1b5320ea72dc132a48cb9" upstream="master" dest-branch="master">
+    <annotation name="VERSION" value="1.0.18"/>
+  </project>
+  <project name="build-tools" revision="7dde8582cb2c74f318c093f4896018aa00bdec44" upstream="master" dest-branch="master"/>
+  <project name="libsodium" remote="couchbasedeps" revision="940ef42797baa0278df6b7fd9e67c7590f87744b" upstream="refs/tags/1.0.18-RELEASE" dest-branch="refs/tags/1.0.18-RELEASE"/>
+</manifest>
