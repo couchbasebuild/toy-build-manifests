@@ -8,7 +8,7 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="4.0.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="85bcdfdd3d182ddeb39fc25376e02c5867355d19" upstream="fix/cbl-6570_libstdc++" dest-branch="fix/cbl-6570_libstdc++" sync-s="true">
+  <project name="couchbase-lite-core" revision="2275ca39a4c01017b9f229800fdc055abc5169a8" upstream="fix/cbl-6570_libstdc++" dest-branch="fix/cbl-6570_libstdc++" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="81151912cf26bcfd9258b638ed6ea1d098cadc46" upstream="master" dest-branch="master" groups="notdefault,enterprise"/>
