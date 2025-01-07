@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="google" fetch="https://github.com/google/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
+    <annotation name="VERSION" value="2.0.0"/>
+  </project>
+  <project name="mobile-vector-search" remote="couchbaselabs-priv" revision="8cc2a51610ec60b395a266ba781a88f720d93b81" upstream="fix_windows_build_script" dest-branch="fix_windows_build_script" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="product-texts" revision="a2495004ad0a30424e697b5eaf2aebb8b5d20231" upstream="master" dest-branch="master"/>
+</manifest>
