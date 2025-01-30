@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase/"/>
-  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/CascadingRadium/"/>
   
   <default remote="couchbase" revision="master"/>
   
-  <project name="OpenBLAS" path="openblas" remote="couchbasedeps" revision="5ef8b1964658f9cb6a6324a06f6a1a022609b0c5" upstream="refs/tags/v0.3.28" dest-branch="refs/tags/v0.3.28"/>
+  <project name="OpenBLAS" path="openblas" remote="couchbasedeps" revision="a8207f60a98dc375d8be2fe9f2f8f444bacd7c38" upstream="test" dest-branch="test"/>
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="0.3.28"/>
   </project>
-  <project name="build-tools" revision="30cd13b003b3d3ae9fa4333cef4192991aa25c62" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="c6f438bc35e58f97b15ba1c783594f389777cf83" upstream="master" dest-branch="master"/>
 </manifest>
