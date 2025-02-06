@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
+    <annotation name="VERSION" value="3.2.2"/>
+  </project>
+  <project name="couchbase-lite-core" revision="3be9e8e134cd1c372f145744c153de841cba040f" upstream="fix/housekeeping-deadlock" dest-branch="fix/housekeeping-deadlock" sync-s="true">
+    <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
+  </project>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="81151912cf26bcfd9258b638ed6ea1d098cadc46" upstream="master" dest-branch="master" groups="notdefault,enterprise"/>
+</manifest>
