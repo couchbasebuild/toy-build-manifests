@@ -7,18 +7,18 @@
   <remote name="google" fetch="https://github.com/google/"/>
   <remote name="snej" fetch="https://github.com/snej/"/>
   
-  <default remote="couchbase" revision="3.1.9-vf1"/>
+  <default remote="couchbase" revision="3.1.9-vf2"/>
   
   <project name="SQLiteCpp" path="couchbase-lite-core/vendor/SQLiteCpp" remote="couchbasedeps" revision="90a4aae02388c07ba60d0c1046823fdfb08cde05"/>
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.1.9"/>
   </project>
-  <project name="couchbase-lite-core" revision="0d4d6752741508cd939f96bbc561f97b0fb978ef" upstream="3.1.9-vf1" dest-branch="3.1.9-vf1" groups="bsl">
+  <project name="couchbase-lite-core" revision="88ba3d1204a4108c6a7a12c7dd3e866525fb74f4" upstream="3.1.9-vf2" dest-branch="3.1.9-vf2" groups="bsl">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
     <annotation name="BSL_REVIEW" value="github-pr"/>
     <annotation name="BSL_REVIEWERS" value="jianminzhao,callumbirks"/>
   </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="6bab5db9bd80bd4577a62932dc1ab819cd5097e8" upstream="3.1.9-vf1" dest-branch="3.1.9-vf1" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="6bab5db9bd80bd4577a62932dc1ab819cd5097e8" upstream="3.1.9-vf2" dest-branch="3.1.9-vf2" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="fleece" path="couchbase-lite-core/vendor/fleece" revision="0e32f3e44eb317ac115c33bb40c89d2a6d2acbce" dest-branch="release/3.1" groups="bsl">
     <annotation name="BSL_REVIEW" value="github-pr"/>
