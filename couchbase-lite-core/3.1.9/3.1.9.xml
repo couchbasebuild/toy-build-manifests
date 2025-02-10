@@ -13,7 +13,7 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.1.9"/>
   </project>
-  <project name="couchbase-lite-core" revision="88ba3d1204a4108c6a7a12c7dd3e866525fb74f4" upstream="3.1.9-vf2" dest-branch="3.1.9-vf2" groups="bsl">
+  <project name="couchbase-lite-core" revision="3da7dd250ec3707bb16cc246a617799e71573963" upstream="3.1.9-vf2" dest-branch="3.1.9-vf2" groups="bsl">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
     <annotation name="BSL_REVIEW" value="github-pr"/>
     <annotation name="BSL_REVIEWERS" value="jianminzhao,callumbirks"/>
