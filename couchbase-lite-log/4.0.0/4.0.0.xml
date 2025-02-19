@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="a8ba0a9d6058381edc320648cafaf696a611908c">
     <annotation name="VERSION" value="4.0.0"/>
   </project>
-  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="170db6ed1242d1b9e61a54a62ee24edd8689d3d8" upstream="master" dest-branch="master" sync-s="true"/>
+  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="14bc82262807e1f38e7c02a0430469670af209d6" upstream="move-tool-support" dest-branch="move-tool-support" sync-s="true"/>
   <project name="product-texts" revision="a2495004ad0a30424e697b5eaf2aebb8b5d20231" upstream="master" dest-branch="master"/>
 </manifest>
