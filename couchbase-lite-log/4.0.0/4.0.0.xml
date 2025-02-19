@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="a8ba0a9d6058381edc320648cafaf696a611908c">
+    <annotation name="VERSION" value="4.0.0"/>
+  </project>
+  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="170db6ed1242d1b9e61a54a62ee24edd8689d3d8" upstream="master" dest-branch="master" sync-s="true"/>
+  <project name="product-texts" revision="a2495004ad0a30424e697b5eaf2aebb8b5d20231" upstream="master" dest-branch="master"/>
+</manifest>
