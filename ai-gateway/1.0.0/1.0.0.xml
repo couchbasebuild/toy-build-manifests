@@ -4,9 +4,9 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   
-  <project name="ai-gateway" remote="couchbase-priv" revision="eb93f33cc6109991101930a2783d38cee8b4e871" upstream="nim" dest-branch="nim"/>
+  <project name="ai-gateway" remote="couchbase-priv" revision="d2cb3b977a782baf78d4499d8662bda6f2cf2a93" upstream="Fix-Api-Keys-New" dest-branch="Fix-Api-Keys-New"/>
   <project name="build" remote="couchbase" revision="4c88139fd4810c8bfd99c6bb91a936c827e065e1">
     <annotation name="VERSION" value="1.0.0"/>
   </project>
-  <project name="golang" remote="couchbaselabs" revision="44963d8d9722bda5950f4d0f6a746b505f82c705" upstream="main" dest-branch="main"/>
+  <project name="golang" remote="couchbaselabs" revision="6fb3a9b9eabea4a2af049896b9072586fa59ca52" upstream="main" dest-branch="main"/>
 </manifest>
