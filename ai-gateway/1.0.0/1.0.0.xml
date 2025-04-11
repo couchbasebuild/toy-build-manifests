@@ -4,7 +4,7 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   
-  <project name="ai-gateway" remote="couchbase-priv" revision="e68b4b2673a8bf16e6314f107c343fae3e5e01ff" upstream="Fix-Api-Keys-New" dest-branch="Fix-Api-Keys-New"/>
+  <project name="ai-gateway" remote="couchbase-priv" revision="a445c4ba898cd9a0ca839e40d260051417bc4bc9" upstream="Fix-Api-Keys-New" dest-branch="Fix-Api-Keys-New"/>
   <project name="build" remote="couchbase" revision="4c88139fd4810c8bfd99c6bb91a936c827e065e1">
     <annotation name="VERSION" value="1.0.0"/>
   </project>
