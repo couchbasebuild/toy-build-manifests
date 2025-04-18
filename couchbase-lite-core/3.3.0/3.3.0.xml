@@ -18,7 +18,7 @@
     <annotation name="BSL_REVIEW" value="github-pr"/>
     <annotation name="BSL_REVIEWERS" value="jianminzhao,callumbirks"/>
   </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="edd5281e399278e71785332c9f986bed9b9a2984" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="3d51f7dafe3af833dffe3813ab47ed77a3973888" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="fleece" path="couchbase-lite-core/vendor/fleece" revision="e088084ca907714a94bcf1a1dd5c2a7d13ae4616" dest-branch="release/3.1" groups="bsl">
     <annotation name="BSL_REVIEW" value="github-pr"/>
