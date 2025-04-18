@@ -27,6 +27,7 @@
   <project name="googletest" path="couchbase-lite-core/vendor/SQLiteCpp/googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
   <project name="ios-cmake" path="couchbase-lite-core/vendor/ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
   <project name="jsonsl" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c"/>
+  <project name="linenoise-mob" path="couchbase-lite-core/vendor/linenoise-mob" remote="couchbasedeps" revision="8631d28ef0271ff29e041dbe459602c04fe8bc2c"/>
   <project name="litecore-download-script" path="couchbase-lite-core/tools" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041"/>
   <project name="mDNSResponder" path="couchbase-lite-core-EE/vendor/mDNSResponder" remote="couchbasedeps" revision="1bc40bdeecf331d2a05767827c8a7a2989601f6a"/>
   <project name="mbedtls" path="couchbase-lite-core/vendor/mbedtls" remote="couchbasedeps" revision="c211590fa64f66ba582bb3f9a87ff0d09286578c"/>
