@@ -13,12 +13,12 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="e920f05c568e2a85648a7a95cc71e8f3a281db5f" upstream="toy-p2p" dest-branch="toy-p2p" groups="bsl">
+  <project name="couchbase-lite-core" revision="55634f1c5491472dc713e9c2ce6f82f2ec961d71" upstream="toy-p2p" dest-branch="toy-p2p" groups="bsl">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
     <annotation name="BSL_REVIEW" value="github-pr"/>
     <annotation name="BSL_REVIEWERS" value="jianminzhao,callumbirks"/>
   </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="3d51f7dafe3af833dffe3813ab47ed77a3973888" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="7a3cff473b186b9ea6f7d276a708497a517b475a" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
   <project name="fleece" path="couchbase-lite-core/vendor/fleece" revision="e088084ca907714a94bcf1a1dd5c2a7d13ae4616" dest-branch="release/3.1" groups="bsl">
     <annotation name="BSL_REVIEW" value="github-pr"/>
@@ -29,7 +29,7 @@
   <project name="jsonsl" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c"/>
   <project name="linenoise-mob" path="couchbase-lite-core/vendor/linenoise-mob" remote="couchbasedeps" revision="8631d28ef0271ff29e041dbe459602c04fe8bc2c"/>
   <project name="litecore-download-script" path="couchbase-lite-core/tools" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041"/>
-  <project name="mDNSResponder" path="couchbase-lite-core-EE/vendor/mDNSResponder" remote="couchbasedeps" revision="1bc40bdeecf331d2a05767827c8a7a2989601f6a"/>
+  <project name="mDNSResponder" path="couchbase-lite-core-EE/vendor/mDNSResponder" remote="couchbasedeps" revision="e133b6b60efb5e5d7f5efa324c2b983555175a01"/>
   <project name="mbedtls" path="couchbase-lite-core/vendor/mbedtls" remote="couchbasedeps" revision="c211590fa64f66ba582bb3f9a87ff0d09286578c"/>
   <project name="sockpp" path="couchbase-lite-core/vendor/sockpp" remote="couchbasedeps" revision="01c7560ed14bf5a935f7e899f9eb4f72f7403d5d"/>
   <project name="sqlite3-unicodesn" path="couchbase-lite-core/vendor/sqlite3-unicodesn" remote="couchbasedeps" revision="56f70205de560e96a6ef4766839e4fa67e0d0749"/>
