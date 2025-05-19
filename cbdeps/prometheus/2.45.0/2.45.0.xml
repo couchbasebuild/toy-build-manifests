@@ -11,7 +11,7 @@
     <annotation name="BD_VERSION" value="v2.45.0"/>
     <annotation name="GOVERSION" value="SUPPORTED_NEWER"/>
   </project>
-  <project name="build-tools" revision="bb3cfd7cda35db592d45e9b214adc1441cbde2ab" upstream="master" dest-branch="master"/>
-  <project name="golang" remote="couchbaselabs" revision="caf6df3210a07f25e9b327f7ecb80cc4c16b8c8d" upstream="main" dest-branch="main"/>
+  <project name="build-tools" revision="fff7aab59924f39a2aa5806b6acee5eb82bb20b0" upstream="master" dest-branch="master"/>
+  <project name="golang" remote="couchbaselabs" revision="6fb3a9b9eabea4a2af049896b9072586fa59ca52" upstream="main" dest-branch="main"/>
   <project name="prometheus" path="goproj/src/github.com/prometheus/prometheus" remote="couchbasedeps" revision="8ef767e396bf8445f009f945b0162fd71827f445" upstream="refs/tags/v2.45.0" dest-branch="refs/tags/v2.45.0"/>
 </manifest>
