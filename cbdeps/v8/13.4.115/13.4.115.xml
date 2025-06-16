@@ -27,7 +27,7 @@
   <project name="build" path="cbbuild" remote="couchbase" revision="ca92a4864bbcc878fb7b00f3c94c2c534c7ebd1a">
     <annotation name="VERSION" value="13.4.115"/>
   </project>
-  <project name="build-tools" remote="couchbase" revision="7d85beb7af6529c4dbe08d5300c25626fbfa333e" upstream="master" dest-branch="master"/>
+  <project name="build-tools" remote="couchbase" revision="025c427ca31a3b8210ad8e56108c13803b75056e" upstream="master" dest-branch="master"/>
   <project name="buildtools" path="v8/buildtools" remote="chromium-src" revision="6b4eaa1ed0f3a604f354b4098e4f676f7815f1da"/>
   <project name="clang" path="v8/tools/clang" remote="src-tools" revision="a037c8c5ad9a5591d9699730ed8c30f3e0a9a5ac"/>
   <project name="clang-format" path="v8/third_party/clang-format/script" remote="clang-tools" revision="37f6e68a107df43b7d7e044fd36a13cbae3413f2"/>
