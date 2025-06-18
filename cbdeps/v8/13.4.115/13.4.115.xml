@@ -27,7 +27,7 @@
   <project name="build" path="cbbuild" remote="couchbase" revision="ca92a4864bbcc878fb7b00f3c94c2c534c7ebd1a">
     <annotation name="VERSION" value="13.4.115"/>
   </project>
-  <project name="build-tools" remote="couchbase" revision="025c427ca31a3b8210ad8e56108c13803b75056e" upstream="master" dest-branch="master"/>
+  <project name="build-tools" remote="couchbase" revision="546dd4619466d890dbd0b5eb9454727c1cf68934" upstream="master" dest-branch="master"/>
   <project name="buildtools" path="v8/buildtools" remote="chromium-src" revision="6b4eaa1ed0f3a604f354b4098e4f676f7815f1da"/>
   <project name="clang" path="v8/tools/clang" remote="src-tools" revision="a037c8c5ad9a5591d9699730ed8c30f3e0a9a5ac"/>
   <project name="clang-format" path="v8/third_party/clang-format/script" remote="clang-tools" revision="37f6e68a107df43b7d7e044fd36a13cbae3413f2"/>
@@ -35,7 +35,7 @@
   <project name="fast_float" path="v8/third_party/fast_float/src" remote="github.com-fastfloat" revision="cb1d42aaa1e14b09e1452cfdef373d051b8c02a4"/>
   <project name="fuzztest" path="v8/third_party/fuzztest" remote="src-third_party" revision="add91db8abc49d7b20e025d1869cbab0d629dc19"/>
   <project name="fuzztest" path="v8/third_party/fuzztest/src" remote="github.com-google" revision="44ac6c2594a880edbb9cb1e4e197c2b53d078130"/>
-  <project name="gn" remote="gn.googlesource.com" revision="54169531ed6da64425ad6e8e9535945c8f6220d0" upstream="main" dest-branch="main"/>
+  <project name="gn" remote="gn.googlesource.com" revision="81dab9f25cb2381400c237fdea7030d5068f9a73" upstream="main" dest-branch="main"/>
   <project name="google_benchmark" path="v8/third_party/google_benchmark_chrome" remote="src-third_party" revision="917e1208b42fdce63511e401067677ffee3a5c7d"/>
   <project name="googletest" path="v8/third_party/googletest/src" remote="github.com-google" revision="e235eb34c6c4fed790ccdad4b16394301360dcd4"/>
   <project name="highway" path="v8/third_party/highway/src" remote="github.com-google" revision="00fe003dac355b979f36157f9407c7c46448958e"/>
