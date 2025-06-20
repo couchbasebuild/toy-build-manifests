@@ -35,7 +35,7 @@
   <project name="fast_float" path="v8/third_party/fast_float/src" remote="github.com-fastfloat" revision="cb1d42aaa1e14b09e1452cfdef373d051b8c02a4"/>
   <project name="fuzztest" path="v8/third_party/fuzztest" remote="src-third_party" revision="add91db8abc49d7b20e025d1869cbab0d629dc19"/>
   <project name="fuzztest" path="v8/third_party/fuzztest/src" remote="github.com-google" revision="44ac6c2594a880edbb9cb1e4e197c2b53d078130"/>
-  <project name="gn" remote="gn.googlesource.com" revision="81dab9f25cb2381400c237fdea7030d5068f9a73" upstream="main" dest-branch="main"/>
+  <project name="gn" remote="gn.googlesource.com" revision="97b68a0bb62b7528bc3491c7949d6804223c2b82" upstream="main" dest-branch="main"/>
   <project name="google_benchmark" path="v8/third_party/google_benchmark_chrome" remote="src-third_party" revision="917e1208b42fdce63511e401067677ffee3a5c7d"/>
   <project name="googletest" path="v8/third_party/googletest/src" remote="github.com-google" revision="e235eb34c6c4fed790ccdad4b16394301360dcd4"/>
   <project name="highway" path="v8/third_party/highway/src" remote="github.com-google" revision="00fe003dac355b979f36157f9407c7c46448958e"/>
