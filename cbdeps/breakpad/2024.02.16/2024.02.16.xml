@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  <remote name="google" fetch="https://github.com/google/"/>
+  <remote name="googlesource" fetch="https://chromium.googlesource.com/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
+    <annotation name="VERSION" value="2024.02.16"/>
+  </project>
+  <project name="build-tools" revision="546dd4619466d890dbd0b5eb9454727c1cf68934" upstream="master" dest-branch="master"/>
+  <project name="google-breakpad" path="breakpad" remote="couchbasedeps" revision="f80f2888031b0570783011476a5e862fb7d848a1"/>
+  <project name="googletest" path="breakpad/src/testing" remote="google" revision="6910c9d9165801d8827d628cb72eb7ea9dd538c5"/>
+  <project name="linux-syscall-support" path="breakpad/src/third_party/lss" remote="googlesource" revision="ed31caa60f20a4f6569883b2d752ef7522de51e0"/>
+  <project name="protobuf" path="breakpad/src/third_party/protobuf/protobuf" remote="google" revision="cb6dd4ef5f82e41e06179dcd57d3b1d9246ad6ac"/>
+</manifest>
