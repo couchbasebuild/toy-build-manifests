@@ -3,13 +3,11 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="release/3.2"/>
+  <default remote="couchbase" revision="master"/>
   
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="7101fb185252b5364831add062d9f58b7d43f842" upstream="fix/peer-discovery-header" dest-branch="fix/peer-discovery-header" sync-s="true">
-    <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
-  </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="c15fb09e1be16fdc50578f455fcfc405511f3826" upstream="PR-2301" dest-branch="PR-2301" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="b0161b9b51a06f7978c10bf342244460a2937432" upstream="master" dest-branch="master" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="db19aff47693b8c0e09fca72aaf3c9cbd364a652" upstream="fix/p2p-resolve-addresses" dest-branch="fix/p2p-resolve-addresses" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
