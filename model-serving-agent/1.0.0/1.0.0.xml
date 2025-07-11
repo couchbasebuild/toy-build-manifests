@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org"/>
+  <remote name="couchbasecloud" fetch="ssh://git@github.com/couchbasecloud/"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  
+  <project name="build" remote="couchbase" revision="4c88139fd4810c8bfd99c6bb91a936c827e065e1">
+    <annotation name="VERSION" value="1.0.0"/>
+  </project>
+  <project name="couchbase-cloud" remote="couchbasecloud" revision="7b47b495a13f6778d2d3a1d3a9a79180089c09b5" upstream="main" dest-branch="main"/>
+  <project name="golang" remote="couchbaselabs" revision="88c78e13080832939d3b1f79f2de7ff0423eec31" upstream="main" dest-branch="main"/>
+</manifest>
