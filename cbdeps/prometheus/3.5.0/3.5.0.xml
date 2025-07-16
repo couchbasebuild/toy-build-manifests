@@ -10,7 +10,7 @@
     <annotation name="VERSION" value="3.5.0"/>
     <annotation name="BD_VERSION" value="3.5.0"/>
     <annotation name="GOVERSION" value="SUPPORTED_NEWER"/>
-    <annotation name="NODEJS_VERSION" value="16.5.0"/>
+    <annotation name="NODEJS_VERSION" value="18.18.0"/>
   </project>
   <project name="build-tools" revision="4c97b5be616713b3143330c6714f8034f1a0a1e0" upstream="master" dest-branch="master"/>
   <project name="golang" remote="couchbaselabs" revision="88c78e13080832939d3b1f79f2de7ff0423eec31" upstream="main" dest-branch="main"/>
