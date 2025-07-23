@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="1.72.0"/>
   </project>
-  <project name="build-tools" revision="ad3f22fc36fa603030faada6732c8b8233103bde" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="00e3ecec9092245dcaa05bbb061e81c64e82089f" upstream="master" dest-branch="master"/>
   <project name="grpc" remote="couchbasedeps" revision="6c472088f7ced709efac16bf41d399c7ad6f1a44" upstream="refs/tags/v1.72.0" dest-branch="refs/tags/v1.72.0"/>
 </manifest>
