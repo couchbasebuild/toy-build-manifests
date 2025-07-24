@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d" groups="notdefault">
+    <annotation name="VERSION" value="3.3.0"/>
+  </project>
+  <project name="couchbase-lite-java-ee-root" path="cbl-java" remote="couchbaselabs-priv" revision="a3aa567b965549433bf2922ecaec5d167510bf31" upstream="fix/updated_jni_createPeerInfo" dest-branch="fix/updated_jni_createPeerInfo" sync-s="true"/>
+  <project name="product-texts" path="cbl-java/legal" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
+</manifest>
