@@ -16,7 +16,7 @@
     <annotation name="BSL_VERSION" value="3.2"/>
     <annotation name="BSL_CHANGE_DATE" value="February 28, 2029"/>
   </project>
-  <project name="couchbase-lite-core" revision="7bd244b958be718f26eb3fe89c703ee054fe5d7b" upstream="disable-constexpr-mutex" dest-branch="disable-constexpr-mutex" groups="bsl">
+  <project name="couchbase-lite-core" revision="c21fa4343c162b1c0aa56aa57a2e0c805f0f16c0" upstream="xcode-16.4" dest-branch="xcode-16.4" groups="bsl">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
     <annotation name="BSL_REVIEW" value="github-pr"/>
     <annotation name="BSL_REVIEWERS" value="jianminzhao,callumbirks"/>
