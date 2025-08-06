@@ -8,9 +8,6 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="b0161b9b51a06f7978c10bf342244460a2937432" upstream="master" dest-branch="master" groups="bsl" sync-s="true">
-    <annotation name="BSL_REVIEW" value="github-pr"/>
-    <annotation name="BSL_REVIEWERS" value="jianminzhao,callumbirks"/>
-  </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="2de92abdd7dfffcfbc0d36d9b6a035227f2f6aa5" upstream="fix/p2p-resolve-addresses" dest-branch="fix/p2p-resolve-addresses" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="4fe17c8c74ea0c0aa8ca425f94d5608e88c10670" upstream="master" dest-branch="master" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="9606c5a4ad8db8c5109c22fa3ae21087905969d2" upstream="fix/servicereg-CBL-7224" dest-branch="fix/servicereg-CBL-7224" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
