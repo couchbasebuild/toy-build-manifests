@@ -3,14 +3,11 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/3.3"/>
   
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="c0a659446982f67a87fccc7e5d19fb6d778dd534" upstream="cbl-7253-experiment" dest-branch="cbl-7253-experiment" groups="bsl" sync-s="true">
-    <annotation name="BSL_REVIEW" value="github-pr"/>
-    <annotation name="BSL_REVIEWERS" value="jianminzhao"/>
-  </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="eef6aa5afc2a11ff6d98d056bc53d85580491d77" upstream="cbl-7253-experiment" dest-branch="cbl-7253-experiment" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="90cac3a283455b792f20d540e29c2fcdf4542e6e" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="58f355387e245ebff6a5695e3a8e4019f0908a5e" upstream="fix/server-stop" dest-branch="fix/server-stop" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
