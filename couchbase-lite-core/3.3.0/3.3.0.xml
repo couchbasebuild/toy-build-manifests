@@ -8,6 +8,9 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="90cac3a283455b792f20d540e29c2fcdf4542e6e" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="7ee7fbe859062b700021722b21be0e57bb17d675" upstream="fix/server-stop-plus-debuglog" dest-branch="fix/server-stop-plus-debuglog" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="3cf6df936466b18a098db39b039bb53e5f383c52" upstream="cbl-7347-dbg-logging" dest-branch="cbl-7347-dbg-logging" groups="bsl" sync-s="true">
+    <annotation name="BSL_REVIEW" value="github-pr"/>
+    <annotation name="BSL_REVIEWERS" value="jianminzhao"/>
+  </project>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="4e05e514911ce59d8583286db5c8752597e354f8" upstream="cbl-7347-dbg-logging" dest-branch="cbl-7347-dbg-logging" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
