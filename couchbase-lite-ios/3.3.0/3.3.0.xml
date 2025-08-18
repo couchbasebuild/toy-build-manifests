@@ -3,12 +3,12 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="toy-3.3.0"/>
+  <default remote="couchbase" revision="CBL-7347"/>
   
   <project name="build" revision="844e2484067053d7af88e706a814766265bf03df">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-ios" revision="f7750860baeebe15ed7b53a42267a792043b476c" upstream="toy-3.3.0" dest-branch="toy-3.3.0" sync-s="true"/>
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="7b7e04dfe6bd9c4fe04017f84f77fc99f90b27a7" upstream="toy-3.3.0" dest-branch="toy-3.3.0" groups="enterprise,notdefault" sync-s="true"/>
+  <project name="couchbase-lite-ios" revision="09a3e6ccf80ee725eb4eb3a88abff9cac6a7f895" upstream="CBL-7347" dest-branch="CBL-7347" sync-s="true"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="acaeefdd73f1e35d6001e7d3d9687aa40091a5bc" upstream="CBL-7347" dest-branch="CBL-7347" groups="enterprise,notdefault" sync-s="true"/>
   <project name="product-texts" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
