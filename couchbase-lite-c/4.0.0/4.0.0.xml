@@ -11,6 +11,6 @@
   <project name="couchbase-lite-c" revision="a7157b054cce0eccb52cfec7641839ff9a7ecb9c" upstream="CBL-7067" dest-branch="CBL-7067" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="597ddd497c37a78adc009d677e7407e0b501def6" upstream="main" dest-branch="main" groups="enterprise" sync-s="true"/>
+  <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="a7788a8b26618b7b3b15eedae7276be80ea570e8" upstream="CBL-7067" dest-branch="CBL-7067" groups="enterprise" sync-s="true"/>
   <project name="product-texts" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
