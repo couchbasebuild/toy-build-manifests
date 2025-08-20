@@ -9,5 +9,5 @@
     <annotation name="VERSION" value="3.3.0"/>
   </project>
   <project name="couchbase-lite-core" revision="41f9970dfde6ab092c9a1701fe43bec6fc036355" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="51afb248d50b5f152b4ea728c471dbf5200b91ae" upstream="fix/p2p-log-select" dest-branch="fix/p2p-log-select" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="125363d164aabcdab846eed0fbe930309dd94fa8" upstream="fix/p2p-log-select" dest-branch="fix/p2p-log-select" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
