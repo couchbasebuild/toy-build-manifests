@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="41f9970dfde6ab092c9a1701fe43bec6fc036355" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="03794d2942090e5ae2afff60561f7a6dd58da30e" upstream="fix/p2p-log-select" dest-branch="fix/p2p-log-select" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="73d1b9ee28f8eb2d3f7fe2d56db7dd86e06ff438" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="0955fe7604c94fc89bcdd4f362aa8ea056844b97" upstream="fix/really-truly-fix-embedded-CBL-7384" dest-branch="fix/really-truly-fix-embedded-CBL-7384" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
