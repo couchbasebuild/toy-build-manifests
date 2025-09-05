@@ -8,7 +8,7 @@
   <project name="build" path="cbbuild" revision="cf20ab9c0f7d81838212b1f2d719903ffb4a4d9e">
     <annotation name="VERSION" value="3.2.4"/>
   </project>
-  <project name="couchbase-lite-c" revision="769129be1ef5a41f40dec5bae8d410a28e344260" upstream="vf/3.2.4-android-deb-info" dest-branch="vf/3.2.4-android-deb-info" sync-s="true">
+  <project name="couchbase-lite-c" revision="3d74b5b52a257191d14774d0882d3a0171d3216e" upstream="vf/3.2.4-android-deb-info" dest-branch="vf/3.2.4-android-deb-info" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="01ea1cee1d9fea20c50a9cac0ced7c4f62dcf51f" upstream="release/3.2" dest-branch="release/3.2" groups="enterprise" sync-s="true"/>
