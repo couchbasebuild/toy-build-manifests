@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="25.3"/>
   </project>
-  <project name="build-tools" revision="00e3ecec9092245dcaa05bbb061e81c64e82089f" upstream="master" dest-branch="master"/>
-  <project name="erlang" remote="couchbasedeps" revision="12c77ce8b97f94359f837cd716b3a15829cedaa2" upstream="couchbase-25.3" dest-branch="couchbase-25.3"/>
+  <project name="build-tools" revision="af1f25b491a9ba2b18bd2efd47e81d3fd0ef28aa" upstream="master" dest-branch="master"/>
+  <project name="erlang" remote="couchbasedeps" revision="e0e82adbe9e4ab479137cd5b890827c4ab038eaa" upstream="couchbase-25.3" dest-branch="couchbase-25.3"/>
 </manifest>
