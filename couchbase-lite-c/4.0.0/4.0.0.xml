@@ -3,14 +3,14 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="CBL-7067"/>
+  <default remote="couchbase" revision="CBL-7431"/>
   
   <project name="build" path="cbbuild" revision="cf20ab9c0f7d81838212b1f2d719903ffb4a4d9e">
     <annotation name="VERSION" value="4.0.0"/>
   </project>
-  <project name="couchbase-lite-c" revision="9cb436575163627bcece6327dce790097ec9a843" upstream="CBL-7067" dest-branch="CBL-7067" sync-s="true">
+  <project name="couchbase-lite-c" revision="12d8b572d7df7b07473a6ce8ddd8b79de661ff44" upstream="CBL-7431" dest-branch="CBL-7431" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="a7788a8b26618b7b3b15eedae7276be80ea570e8" upstream="CBL-7067" dest-branch="CBL-7067" groups="enterprise" sync-s="true"/>
+  <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="1088001ae5a6f201acc46b99a68c8659c4fdabd3" upstream="main" dest-branch="main" groups="enterprise" sync-s="true"/>
   <project name="product-texts" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
