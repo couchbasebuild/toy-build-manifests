@@ -8,6 +8,9 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="73d1b9ee28f8eb2d3f7fe2d56db7dd86e06ff438" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="0955fe7604c94fc89bcdd4f362aa8ea056844b97" upstream="fix/really-truly-fix-embedded-CBL-7384" dest-branch="fix/really-truly-fix-embedded-CBL-7384" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="2b245fa6675114278be3df1e3bf1aeaf89a54a83" upstream="vf-21330" dest-branch="vf-21330" groups="bsl" sync-s="true">
+    <annotation name="BSL_REVIEW" value="github-pr"/>
+    <annotation name="BSL_REVIEWERS" value="jianminzhao"/>
+  </project>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="349d5f0e38ed416f1bc45cc801e98f654030c321" upstream="release/3.3" dest-branch="release/3.3" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
