@@ -8,7 +8,7 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="2b245fa6675114278be3df1e3bf1aeaf89a54a83" upstream="vf-21330" dest-branch="vf-21330" groups="bsl" sync-s="true">
+  <project name="couchbase-lite-core" revision="d8566d2112df1070b178b33cc381ba27394bbd86" upstream="vf-21330" dest-branch="vf-21330" groups="bsl" sync-s="true">
     <annotation name="BSL_REVIEW" value="github-pr"/>
     <annotation name="BSL_REVIEWERS" value="jianminzhao"/>
   </project>
