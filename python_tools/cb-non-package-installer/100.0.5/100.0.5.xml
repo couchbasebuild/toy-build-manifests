@@ -7,5 +7,5 @@
   <project name="build" path="cbbuild" revision="89467fdea78ec6c84fa423756a1210056ac5c199">
     <annotation name="VERSION" value="100.0.5"/>
   </project>
-  <project name="cb-non-package-installer" revision="6db364ab3511b387047e183910fd4b0588a0a0e0" upstream="master" dest-branch="master"/>
+  <project name="cb-non-package-installer" revision="7423cb8bef1a265923ba55f62dd3c5fa29a3b670" upstream="master" dest-branch="master"/>
 </manifest>
