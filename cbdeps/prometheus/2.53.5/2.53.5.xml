@@ -13,7 +13,7 @@
     <annotation name="NODEJS_VERSION" value="22.19.0"/>
     <annotation name="YARN_VERSION" value="1.22.22"/>
   </project>
-  <project name="build-tools" revision="a0d0f27948c759a78d88d970ea19d0a3a1c337b6" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="73d36d757b96ea4554f4933e46a0aeef735068d7" upstream="master" dest-branch="master"/>
   <project name="golang" remote="couchbaselabs" revision="c81ce0449c5c278169871f28260e29212577ce8b" upstream="main" dest-branch="main"/>
   <project name="prometheus" path="goproj/src/github.com/prometheus/prometheus" remote="couchbasedeps" revision="d344ea7bf4cc9e9e131a0318d10025982e9c4cc1" upstream="refs/tags/v2.53.5" dest-branch="refs/tags/v2.53.5"/>
 </manifest>
