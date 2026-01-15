@@ -10,6 +10,6 @@
     <annotation name="VERSION" value="4.1.0"/>
   </project>
   <project name="couchbase-lite-core-EE" path="couchbase-mobile-tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="349d5f0e38ed416f1bc45cc801e98f654030c321" sync-s="true"/>
-  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="0aecd4be01903ed58e587ef3ea153dd58ade70fa" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
+  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="6e44f05b3a7801d5d7d271a0b702e79f15e7e183" upstream="release/3.3" dest-branch="release/3.3" sync-s="true"/>
   <project name="product-texts" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
