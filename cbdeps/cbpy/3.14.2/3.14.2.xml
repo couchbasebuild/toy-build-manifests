@@ -8,5 +8,5 @@
   <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
     <annotation name="VERSION" value="3.14.2"/>
   </project>
-  <project name="build-tools" revision="570b19dc3bb276e3a09fd7d3f3aeb1a296de23df" upstream="master" dest-branch="master"/>
+  <project name="build-tools" revision="af58bf8a004ae6c92e02439912d996a6e124f1b7" upstream="master" dest-branch="master"/>
 </manifest>
