@@ -3,12 +3,12 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="CBL-7347"/>
+  <default remote="couchbase" revision="master"/>
   
   <project name="build" revision="844e2484067053d7af88e706a814766265bf03df">
     <annotation name="VERSION" value="3.3.0"/>
   </project>
-  <project name="couchbase-lite-ios" revision="fb5ebfe2396a45e6dc98610a552fd78f47702e72" upstream="CBL-7347" dest-branch="CBL-7347" sync-s="true"/>
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="acaeefdd73f1e35d6001e7d3d9687aa40091a5bc" upstream="CBL-7347" dest-branch="CBL-7347" groups="enterprise,notdefault" sync-s="true"/>
+  <project name="couchbase-lite-ios" revision="1940edd6a3ee93a114f8861bc09eb5129110ffcc" upstream="master" dest-branch="master" sync-s="true"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="b89dea5c34f16101a723cc44ed4ab5de2b932049" upstream="CBL-7962" dest-branch="CBL-7962" groups="enterprise,notdefault" sync-s="true"/>
   <project name="product-texts" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
