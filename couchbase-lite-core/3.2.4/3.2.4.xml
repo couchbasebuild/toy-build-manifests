@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="3.2.4"/>
   </project>
-  <project name="couchbase-lite-core" revision="7b2d219ddd074cb8df6121883444e50b71cfa229" upstream="utf8_string_diagnostics" dest-branch="utf8_string_diagnostics" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="b59e6883afb6bbecc4bee6aa9496fbbd70b9e0d2" upstream="utf8_string_diagnostics" dest-branch="utf8_string_diagnostics" sync-s="true"/>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="68e858060e1ad2ddb26fe528fa0a3435d52a4a90" upstream="release/3.2" dest-branch="release/3.2" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
