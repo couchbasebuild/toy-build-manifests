@@ -3,11 +3,11 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="release/3.3"/>
+  <default remote="couchbase" revision="master"/>
   
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="4.1.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="f94b5f2ba019a8b6f3df1429b392e2d8e0796f9d" upstream="clang_cl" dest-branch="clang_cl" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="3a5fc335a498697983e8ff955841aec7da9fefbc" upstream="master" dest-branch="master" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="ab3c8726fc5656bacea60a04fe141807e6833e11" upstream="master" dest-branch="master" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="5673e3973e70c2284c142f80c800b2ca7a2e2125" upstream="fix/incoming-no-c4peer" dest-branch="fix/incoming-no-c4peer" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
