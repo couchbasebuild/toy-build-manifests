@@ -9,6 +9,7 @@
     <annotation name="VERSION" value="1.13.2"/>
     <annotation name="OPENBLAS_VERSION" value="0.3.28-1"/>
     <annotation name="LLVM_OPENMP_VERSION" value="16.0.4"/>
+    <annotation name="CUDA_COMPLETE_VERSION" value="12.9.1_575.57.08"/>
   </project>
   <project name="build-tools" revision="8b19bd6a9a73a0313a16f2a79e1ff553119ffe2e" upstream="master" dest-branch="master"/>
   <project name="faiss" remote="blevesearch" revision="0bb5ffce4856e4eb9a53604feef0f6cb3174e20b" upstream="toy" dest-branch="toy"/>
