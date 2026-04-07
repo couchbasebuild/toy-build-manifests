@@ -12,5 +12,5 @@
     <annotation name="CUDA_COMPLETE_VERSION" value="12.9.1_575.57.08"/>
   </project>
   <project name="build-tools" revision="8b19bd6a9a73a0313a16f2a79e1ff553119ffe2e" upstream="master" dest-branch="master"/>
-  <project name="faiss" remote="blevesearch" revision="4620e201bb3dd627a6bcb0fdb8d8e3f1536f5c24" upstream="toy" dest-branch="toy"/>
+  <project name="faiss" remote="blevesearch" revision="c3f6a6029db6b74219c012882591c0cb7446a010" upstream="toy" dest-branch="toy"/>
 </manifest>
