@@ -12,7 +12,7 @@
     <annotation name="GOVERSION" value="SUPPORTED_NEWER"/>
     <annotation name="NODEJS_VERSION" value="24.0.0"/>
   </project>
-  <project name="build-tools" revision="9b50dec0dd06a0d77bca81536dbc3a6c0aef43f6" upstream="master" dest-branch="master"/>
-  <project name="golang" remote="couchbaselabs" revision="5ceb872c85542ee81756db8206ba09e1c22bb5ff" upstream="main" dest-branch="main"/>
+  <project name="build-tools" revision="7fca409a729c87f0f7ce67603c59389e36dbc998" upstream="master" dest-branch="master"/>
+  <project name="golang" remote="couchbaselabs" revision="2d799ebaf06498885cab0e992e94c6be79ddcbf7" upstream="main" dest-branch="main"/>
   <project name="prometheus" path="goproj/src/github.com/prometheus/prometheus" remote="couchbasedeps" revision="9ec59baffb547e24f1468a53eb82901e58feabd8" upstream="refs/tags/v3.9.1" dest-branch="refs/tags/v3.9.1"/>
 </manifest>
