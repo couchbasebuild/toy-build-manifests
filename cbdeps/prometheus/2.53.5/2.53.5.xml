@@ -11,6 +11,7 @@
     <annotation name="BD_VERSION" value="2.53.5"/>
     <annotation name="GOVERSION" value="SUPPORTED_NEWER"/>
     <annotation name="NODEJS_VERSION" value="22.19.0"/>
+    <annotation name="YARN_VERSION" value="1.22.22"/>
   </project>
   <project name="build-tools" revision="084ef8036a85e9313a1a05b17b6797f3f0237c72" upstream="master" dest-branch="master"/>
   <project name="golang" remote="couchbaselabs" revision="2d799ebaf06498885cab0e992e94c6be79ddcbf7" upstream="main" dest-branch="main"/>
