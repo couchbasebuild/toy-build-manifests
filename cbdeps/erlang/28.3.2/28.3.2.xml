@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="36c14bff75870f6995a867c5a07f4ecd037eb68c">
+    <annotation name="VERSION" value="28.3.2"/>
+    <annotation name="OPENSSL_VERSION" value="3.5.5-1"/>
+    <annotation name="NCURSES_VERSION" value="6.4-1"/>
+  </project>
+  <project name="build-tools" revision="a209c3b29f9536c1c0a5824583917fe0c73b6b9b" upstream="master" dest-branch="master"/>
+  <project name="erlang" remote="couchbasedeps" revision="b6cf59ff264c213b011f3094df996842860e18f6" upstream="couchbase-28.3.2" dest-branch="couchbase-28.3.2"/>
+</manifest>
