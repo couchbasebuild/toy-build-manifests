@@ -11,6 +11,6 @@
     <annotation name="LLVM_OPENMP_VERSION" value="16.0.4"/>
     <annotation name="CUDA_COMPLETE_VERSION" value="12.9.1_575.57.08"/>
   </project>
-  <project name="build-tools" revision="6bbd42fbaaffe012b0b39975e7f5558112ed2118" upstream="master" dest-branch="master"/>
-  <project name="faiss" remote="blevesearch" revision="e73d5e6d0c4bdc65bd44a6bb6c62363ac193f7f9" upstream="toy" dest-branch="toy"/>
+  <project name="build-tools" revision="8765f5d13602cf38a9b16da357614bc691fa5e6e" upstream="master" dest-branch="master"/>
+  <project name="faiss" remote="blevesearch" revision="56831c68bbd78b037c0d77062b146d61d889e2ac" upstream="toy" dest-branch="toy"/>
 </manifest>
