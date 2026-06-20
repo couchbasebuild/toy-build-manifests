@@ -3,11 +3,11 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/4.1"/>
   
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="4.1.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="8bfa74532b4d05e97cf2064b8a00240cfc992790" upstream="release/4.1" dest-branch="release/4.1" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="1e50daabae911e0d962cacdb30a182ed6784cf37" upstream="fix/tlscodec-errors-CBL-8485" dest-branch="fix/tlscodec-errors-CBL-8485" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="18c00f9c9fd4a892d804c6ca9a2d5cf84e84480c" upstream="fix/cbl-8494" dest-branch="fix/cbl-8494" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="480dacbd69946e747b4bb10ed09a950c23937baf" upstream="release/4.1" dest-branch="release/4.1" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
