@@ -8,7 +8,7 @@
   <project name="build" revision="844e2484067053d7af88e706a814766265bf03df">
     <annotation name="VERSION" value="4.1.0"/>
   </project>
-  <project name="couchbase-lite-ios" revision="d43192bbfba7c03f5d5d037450d59df78825ad81" upstream="release/4.1" dest-branch="release/4.1" sync-s="true"/>
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="a8c572c4887020ff3ff9e83ec425f9ed628e611e" upstream="LiteCore-4.1.0-53444" dest-branch="LiteCore-4.1.0-53444" groups="enterprise,notdefault" sync-s="true"/>
+  <project name="couchbase-lite-ios" revision="4d1f2a4f60da4dcdfa4ca2135099dca73629e9bf" upstream="CBL-8494-TOY" dest-branch="CBL-8494-TOY" sync-s="true"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="bbdf3292c233e229b49ab652dfdfcdb839759e20" upstream="release/4.1" dest-branch="release/4.1" groups="enterprise,notdefault" sync-s="true"/>
   <project name="product-texts" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
