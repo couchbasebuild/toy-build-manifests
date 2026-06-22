@@ -8,6 +8,6 @@
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="4.1.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="18c00f9c9fd4a892d804c6ca9a2d5cf84e84480c" upstream="fix/cbl-8494" dest-branch="fix/cbl-8494" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="480dacbd69946e747b4bb10ed09a950c23937baf" upstream="release/4.1" dest-branch="release/4.1" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="485281f955591087357580411fae0b455777883f" upstream="fix/meshmgr-hang-CBL-8496" dest-branch="fix/meshmgr-hang-CBL-8496" sync-s="true"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="9e0f588842f9798fa8c8c35fee965caf79a304e2" upstream="PR-2511" dest-branch="PR-2511" groups="notdefault,enterprise" sync-s="true"/>
 </manifest>
