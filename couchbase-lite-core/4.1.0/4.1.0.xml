@@ -3,11 +3,11 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   
-  <default remote="couchbase" revision="release/4.1"/>
+  <default remote="couchbase" revision="master" sync-c="true"/>
   
   <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
     <annotation name="VERSION" value="4.1.0"/>
   </project>
-  <project name="couchbase-lite-core" revision="485281f955591087357580411fae0b455777883f" upstream="fix/meshmgr-hang-CBL-8496" dest-branch="fix/meshmgr-hang-CBL-8496" sync-s="true"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="9e0f588842f9798fa8c8c35fee965caf79a304e2" upstream="PR-2511" dest-branch="PR-2511" groups="notdefault,enterprise" sync-s="true"/>
+  <project name="couchbase-lite-core" revision="1587e9159a238955c825aee9ff266c0dc0e17a83" upstream="master" dest-branch="master" sync-s="true" clone-depth="1"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="67cc109d53ac1b8fffc803ea6e2697bc2b05de53" upstream="master" dest-branch="master" groups="notdefault,enterprise" sync-s="true" clone-depth="1"/>
 </manifest>
