@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="release/3.3" sync-c="true"/>
+  
+  <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
+    <annotation name="VERSION" value="3.3.4"/>
+  </project>
+  <project name="couchbase-lite-core" revision="087de62e61258b9874f2127631d812f80bc4992b" upstream="fix/from-underscore-CBL-8554" dest-branch="fix/from-underscore-CBL-8554" sync-s="true" clone-depth="1"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="c100e669f21803d82263cb1fccb3fe8d90407494" upstream="release/3.3" dest-branch="release/3.3" groups="notdefault,enterprise" sync-s="true" clone-depth="1"/>
+</manifest>
