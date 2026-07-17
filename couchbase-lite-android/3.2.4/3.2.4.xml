@@ -9,6 +9,6 @@
   <project name="build" path="cbbuild" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d" groups="notdefault">
     <annotation name="VERSION" value="3.2.4"/>
   </project>
-  <project name="couchbase-lite-java-ee-root" path="cbl-java" remote="couchbaselabs-priv" revision="822aa1bcc9af9c0e1c7026c4847f3ef6e0627f50" upstream="android_asan" dest-branch="android_asan" sync-s="true"/>
+  <project name="couchbase-lite-java-ee-root" path="cbl-java" remote="couchbaselabs-priv" revision="f5e5ab158eb0209c58202053cda4be825055fe6c" upstream="android_asan" dest-branch="android_asan" sync-s="true"/>
   <project name="product-texts" path="cbl-java/legal" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
