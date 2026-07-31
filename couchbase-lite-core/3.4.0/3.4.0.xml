@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="release/3.4"/>
+  
+  <project name="build" path="cbbuild" revision="b0873a8e5340301c425e2e3c0f93da95f3a027cb">
+    <annotation name="VERSION" value="3.4.0"/>
+  </project>
+  <project name="couchbase-lite-core" revision="26c55508a3a4a8336ad6cfc56eb4385172750782" upstream="asan-3.4.0" dest-branch="asan-3.4.0" groups="bsl" sync-s="true">
+    <annotation name="BSL_REVIEW" value="github-pr"/>
+    <annotation name="BSL_REVIEWERS" value="jianminzhao"/>
+  </project>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="1ec76ea715a74887f5c377476cdeec748d5f2a5d" upstream="release/3.4" dest-branch="release/3.4" groups="notdefault,enterprise" sync-s="true"/>
+</manifest>
