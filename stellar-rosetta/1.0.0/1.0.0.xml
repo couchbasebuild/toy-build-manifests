@@ -10,5 +10,5 @@
     <annotation name="GOVERSION" value="SUPPORTED_NEWER"/>
   </project>
   <project name="golang" remote="couchbaselabs" revision="4fa24f854d744799bc5dacb48d3291274ae456b5" upstream="main" dest-branch="main"/>
-  <project name="stellar-rosetta" path="stella-rosetta" remote="couchbaselabs" revision="8eb69d8037fd98e13437e111eb031720bba6c9a6" upstream="main" dest-branch="main" sync-s="true"/>
+  <project name="stellar-rosetta" remote="couchbaselabs" revision="8eb69d8037fd98e13437e111eb031720bba6c9a6" upstream="main" dest-branch="main" sync-s="true"/>
 </manifest>
