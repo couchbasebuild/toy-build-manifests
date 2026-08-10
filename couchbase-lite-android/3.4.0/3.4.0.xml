@@ -9,6 +9,6 @@
   <project name="build" path="cbbuild" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d" groups="notdefault">
     <annotation name="VERSION" value="3.4.0"/>
   </project>
-  <project name="couchbase-lite-java-ee-root" path="cbl-java" remote="couchbaselabs-priv" revision="4bd7b4ba2d221f03df338a4bcd9cac41d6f8c72e" upstream="3.4-debug" dest-branch="3.4-debug" sync-s="true"/>
+  <project name="couchbase-lite-java-ee-root" path="cbl-java" remote="couchbaselabs-priv" revision="9f46ea0a74eb97c4307bfad21a8f7808e6eaa049" upstream="3.4-core-53496" dest-branch="3.4-core-53496" sync-s="true"/>
   <project name="product-texts" path="cbl-java/legal" revision="3045d75408333b6fd7c2209fbfd7a2e4a85b3d96" upstream="master" dest-branch="master"/>
 </manifest>
