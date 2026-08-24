@@ -10,6 +10,6 @@
     <annotation name="OPENSSL_VERSION" value="3.5.6-1"/>
     <annotation name="NCURSES_VERSION" value="6.4-1"/>
   </project>
-  <project name="build-tools" revision="25c225b8e3376afb6226a6303d516bdb4fb8b102" upstream="master" dest-branch="master"/>
-  <project name="erlang" remote="couchbasedeps" revision="e745b364b8b78d005998a4754c90db72cfc4bd5b" upstream="couchbase-28.5" dest-branch="couchbase-28.5"/>
+  <project name="build-tools" revision="a8831949dc81cd5ab22a801f14ce0904a1d803df" upstream="master" dest-branch="master"/>
+  <project name="erlang" remote="couchbasedeps" revision="a7e4eb1363299938d491fb4242bd234bd7782580" upstream="couchbase-28.5.0.5" dest-branch="couchbase-28.5.0.5"/>
 </manifest>
