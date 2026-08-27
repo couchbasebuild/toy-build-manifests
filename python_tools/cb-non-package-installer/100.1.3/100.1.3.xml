@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="https://github.com/couchbase/"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="build" path="cbbuild" revision="89467fdea78ec6c84fa423756a1210056ac5c199">
+    <annotation name="VERSION" value="100.1.3"/>
+  </project>
+  <project name="cb-non-package-installer" revision="6ad0ee09aff34dfb9ba79c961b252653d2b3555c" upstream="master" dest-branch="master"/>
+</manifest>
