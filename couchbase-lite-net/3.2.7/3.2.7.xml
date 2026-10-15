@@ -10,7 +10,7 @@
     <annotation name="VERSION" value="3.2.7"/>
   </project>
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="e583bf075c39454f96ac9fbce3024479389cf12c" upstream="release/3.2" dest-branch="release/3.2"/>
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="144d1c8c4a6959965db5a88fb811be080e324bd7" upstream="32_build_fixes" dest-branch="32_build_fixes" groups="enterprise"/>
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" revision="1620fc4931568572be0fdd7cda4d24f7d2e0ec9f" upstream="32_build_fixes" dest-branch="32_build_fixes" groups="enterprise"/>
   <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="a71a5a9f2bb808cb2c45a82fe39fd5d4c43e5597" upstream="main" dest-branch="main"/>
   <project name="product-texts" revision="ab8c95f00104a2146cf2e0db9d74b9b2e0eb29a5" upstream="master" dest-branch="master"/>
 </manifest>
